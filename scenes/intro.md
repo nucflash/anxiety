@@ -15,19 +15,19 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if !_.PLAYED_BEFORE}}
-[#play1# PLAY! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# ΠΑΙΞΕ! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act2"}}
-[_CONTINUE_: The Party](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_ΣΥΝΕΧΕΙΑ_: Το Πάρτι](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act3"}}
-[_CONTINUE_: The Other Party](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_ΣΥΝΕΧΕΙΑ_: Το Άλλο Πάρτι](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act4"}}
-[_CONTINUE_: The Other Sandwich](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_ΣΥΝΕΧΕΙΑ_: Το Άλλο Σάντουιτς](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
@@ -35,25 +35,25 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
-[#play1# REPLAY! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# ΞΑΝΑΠΑΙΞΕ! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
-[Chapter Select](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
+[Επιλογή Κεφαλαίου](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
-[(content notes)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
+[(σημειώσεις περιεχομένου)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
 
 # chapter-select
 
 `publish("HACK_chselect");`
 
-[I. The Sandwich](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[I. Το Σάντουιτς](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
-[II. The Party](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[II. Το Πάρτι](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 
 {{if window.localStorage.act3}}
-[III. The Other Party](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[III. Το Άλλο Πάρτι](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act3}}
@@ -61,7 +61,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if window.localStorage.act4}}
-[IV. The Other Sandwich](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[IV. Το Άλλο Σάντουιτς](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act4}}
@@ -69,14 +69,14 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if window.localStorage.credits}}
-[V. Credits](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[V. Τίτλοι](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.credits}}
 [V. Credits]()
 {{/if}}
 
-[(main menu)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[(κύριο μενού)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # to-credits
 
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Welcome! This is less of a "game," more of an interactive story. Hope you like reading, sucka!
+n3: Καλώς ήρθες! Αυτό είναι λιγότερο «παιχνίδι» και περισσότερο διαδραστική ιστορία. Ελπίζω σου αρέσει να διαβάζεις, μαλάκα!
 
-n3: So before we start, how would *you* like to read?
+n3: Πριν ξεκινήσουμε, πώς θες *εσύ* να διαβάζεις;
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
+n3: Τέλεια! Σημείωση: μπορείς πάντα να αλλάξεις τις ρυθμίσεις με το εικονίδιο ⚙ κάτω. Επίσης, το παιχνίδι αποθηκεύεται αυτόματα σε κάθε κεφάλαιο!
 
-n3: Now, let's begin our story...
+n3: Τώρα, ας ξεκινήσουμε την ιστορία μας...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Now, let's begin our story...
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ΑΥΤΟΣ ΕΙΝΑΙ ΕΝΑΣ ΑΝΘΡΩΠΟΣ
 
 (...600)
 

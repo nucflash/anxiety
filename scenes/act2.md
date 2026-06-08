@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: Αλλά *είδες* εκείνο το "νέο" για το φρικτό πράγμα που γίνεται κάπου;
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: γ-γεια...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: Θεέ μου μισώ τα νέα. Όλα είναι σενσασιοθηλία και clickbait.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ω... ωραίο πάρτι...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: Σωστά, απλά ακολουθούν τα κίνητρα. Το *πραγματικό* πρόβλημα είναι οι άνθρωποι που κάνουν κλικ στο clickbait.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: Ποιος θα κάνει retweet φρικτό νέο και θα κάνει τους φίλους του να νιώθουν άσχημα;
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Φι, το'ξερω ε;
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: Αλλά *είδες* εκείνο το "νέο" που έγινε viral;
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: γ-γεια...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: Ναι, εντελώς ψεύτικο. Ποιος θα το'πιστευε και θα κάνει retweet;
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ω... ωραίο πάρτι...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: Σοβαρά ρε. Έλα, άνοιξε Google και κάνε fact-check πρώτα;
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Φι, το'ξερω ε;
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: Όπως έλεγα, το Meme Industrial Complex εκμεταλλεύεται γάτες.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: γ-γεια...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: Εξήγησε αυτή τη διατριβή.
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ω... ωραίο πάρτι...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: Λοιπόν, είδα κάποιον να κάνει retweet GIF γάτας που πίνει γάλα χθες.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: Δεν χωνεύουν αυτά τα ^σκατά^! Ποιος θα κάνει retweet *κακοποίηση ζώων* έτσι;
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Φι, το'ξερω ε;
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: Και ναι, δεν απάντησαν ποτέ!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: γ-γεια...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: Ακόμα κι αν κάνατε match στο Tinder;
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ω... ωραίο πάρτι...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: Ναι δεν ξέρω! Τι, νόμιζαν ότι είμαι *σειριακός δολοφόνος* ή κάτι; Τόσο παράνοικοι.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Φι, το'ξερω ε;
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: Ναι δεν ξέρω! Ίσως νομίζουν ότι τα hookups δεν γεμίζουν το κενό στην καρδιά τους;
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: Μην είσαι τόσο πουριτανός! Άνοιξε το μυαλό σου, μετά άνοιξε τα πόδια σου!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Φι, το'ξερω ε;
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: Ναι δεν ξέρω! Δεν ήταν τόσο καυτός/ή, αλλά θα ήταν καλό κομμάτι!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +279,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: Πιάσ' τα Όλα!™
 
 (#act2-preamble-end)
 
@@ -300,27 +300,27 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: ΓΥΡΟΣ ΔΥΟ: *ΜΑΧΗ!*
 
-[Oh no they all hate us!](#act2a_social)
+[Ωχ όχι, μας μισούν όλοι!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[Κοίταγες *χαζά* την κοκκινομάλλα;](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[Έλα, ας μιλήσουμε για το νόημα της ζωής.](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: Ρίχνουμε τη διάθεση στο πάρτι επειδή είμαστε τέτοιο λυπημένο κομμάτι!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: Σκοτώνουμε τα good vibes! Κάνουμε φόνο vibe πρώτου βαθμού!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: Άνθρωπος, πρέπει να φύγουμε *τώρα* πριν--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +333,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: Είναι πιο ελκυστικοί από εμάς, που σημαίνει αν τους *κοιτάξουμε* έστω, τότε--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: ΕΙΜΑΣΤΕ CREEP
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: Είμαστε creepy, κακοί κακοί κακοί τρομεροί τρομεροί περ--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +354,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: Στο τέλος της μέρας, τι μπορούμε να κάνουμε που πραγματικά μετράει;
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: Να συνεισφέρουμε στην ανθρωπότητα; Όλα τα μεγάλα έργα σαπίζουν σαν τον Ozymandias. Αγάπη; Ο θάνατος πάντα κάνει το κομμάτι του.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: Και πόσος θάνατος υπάρχει! *Εμείς* θα πεθάνουμε. *Οι αγαπημένοι μας* θα πεθάνουν.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: Μάλιστα, ο Δεύτερος Νόμος της Θερμοδυναμικής σημαίνει ότι ακόμα κι ο *σύμπαν* μας θα πεθάνει!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: Ω, "ο θάνατος μας κάνει να εκτιμούμε τη ζωή"; Σαν να λες η δουλεία είναι καλή γιατί μας κάνει να εκτιμούμε την ελευθερία!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: Ω, "πρέπει να φτιάξεις το δικό σου νόημα"; Αυτό κάνουν οι κουλτίστες και οι θεωρητικοί συνωμοσίας!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: Η ζωή δεν έχει νόημα, ο θάνατος δεν έχει νόημα, ακόμα και το *νόημα* δεν έχει νόημα! Τι είναι να κάνει μια θνητή ψυχή--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +395,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: Εμ... με ακούς, άνθρωπος;
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +403,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *ΑΝΑΡΡΟΦΗΣΗ*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: ΠΡΕΠΕΙ ΝΑ Σ' ΠΡΟΕΙΔΟΠΟΙΗΣΩ ΓΙΑ...
 
-[*More* of the same danger!](#act2b_louder)
+[*Περισσότερο* από τον ίδιο κίνδυνο!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[Έναν *άλλο* κοινωνικό κίνδυνο!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[Έναν *άλλο* ηθικό κίνδυνο!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[Αγνοείς τον κίνδυνο! Αυτό είναι επικίνδυνο!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +441,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: ΤΑ ΣΥΝΑΙΣΘΗΜΑΤΑ ΜΕΤΑΔΙΔΟΝΤΑΙ! ΑΝ ΔΕ ΦΥΓΕΙΣ ΘΑ ΜΟΛΥΝΕΙΣ ΟΛΟΥΣ ΜΕ ΤΗ ΨΥΧΙΚΗ ΣΟΥ ΑΡΡΩΣΤΙΑ!
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: Θα δημιουργήσεις θανατηφόρο έξαρση του SAD LUMP SYNDROME
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: Πρέπει να φύγουμε και να κλειστούμε για πάντα σε ένα μικρό δωμάτιο με Netflix και delivery!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +461,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: ΜΗΝ ΕΙΣΑΙ CREEP. ΕΙΝΑΙ ΠΑΡΑΝΟΜΟ!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +486,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: Creep Law, Τμήμα 74.5: (1) Κάθε Άτομο που κοιτάζει (α) αυτούς τους μυώδεις ώμους (β) εκείνο το bubble booty (2) θα ονομάζεται εξ'αδέλφου
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "ΜΕΓΑΛΟ ΑΠΟΡΡΗΤΟ ΣΚΟΥΠΙΔΙ ΠΕΡΒΕΡΤ"
 
 ```
 _.a2_second_danger = 'law';
@@ -504,23 +504,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: Μάλιστα, ακόμα κι αν βρεις ευγενή σκοπό στη ζωή, μπορείς *ακόμα* να τα χαλάσεις όλα!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: Ο Alfred Nobel ήθελε παγκόσμια ειρήνη και οι πολιτισμοί να καταλαβαίνονται. Γι'αυτό αποφάσισε να κάνει τα ταξίδια πιο εύκολα.
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: Χρειαζόταν τρόπο να φτιάχνει σιδηροδρομικές σήραγγες φτηνά. Γι'αυτό εφηύρε ένα νέο υλικό που το ονόμασε "dynamite"...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: που χρησιμοποιήθηκε στον Πρώτο Παγκόσμιο Πόλεμο για να ΣΚΟΤΩΣΟΥΝ ΕΚΑΤΟΜΜΥΡΙΑ ΑΝΘΡΩΠΟΥΣ
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: ΕΙΝΑΙ ΤΟ BUTTERFLY EFFECT, ΑΝΘΡΩΠΕ! ΠΟΣΟΥΣ ΑΝΘΡΩΠΟΥΣ ΣΚΟΤΩΝΕΙΣ ΤΩΡΑ ΧΩΡΙΣ ΝΑ ΤΟ ΞΕΡΕΙΣ
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -536,19 +536,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: Μάλιστα, ξέρεις τι είναι χειρότερο από το να μη σ' αρέσει κανείς; Να σ' αρέσει *όλοι*.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: Δηλαδή, να γίνεις ένα από *αυτά* τα party animals που κυνηγάν την απόλαυση.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: Μια ρηχή ζωή με ρηχούς φίλους που ξέρουν μόνο το ρηχό εσένα!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: Άνθρωπος, πρέπει να ξεφύγουμε από αυτούς τους pleasure-zombies πριν μας κάνουν ένα από αυτούς!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +564,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: Άνθρωποι πεθαίνουν σε λιμούς και γενοκτονίες *τώρα ακριβώς* και εμείς απλά κάνουμε πάρτι!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: Ένας σοφός είπε κάποτε, "το μόνο που χρειάζεται για να θριαμβεύσει το κακό είναι οι καλοί άνθρωποι να μην κάνουν τίποτα."
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: ΕΜΕΙΣ ΔΕΝ ΚΑΝΟΥΜΕ ΤΙΠΟΤΑ.
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: ΜΕ ΤΟ ΠΑΡΤΙ, ΒΟΗΘΑΜΕ ΤΟΝ *ΧΙΤΛΕΡ*.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +592,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: Νομίζεις ότι είσαι ασφαλής επειδή έβγαλες τις μπαταρίες από τον ανιχνευτή μονοξειδίου;
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: Δεν θα μυρίσεις καν το δηλητήριο! Απλά θα νυσταγορίσεις και μετά θα--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: ΘΑ ΠΕΘΑΝΟΥΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜ
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +621,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: Ω Θεέ μου άνθρωπος, νομίζω με ακούς πάλι!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: ΘΑ Σ' ΠΡΟΕΙΔΟΠΟΙΗΣΩ ΓΙΑ...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*Ακόμα περισσότερο* από τον ίδιο κίνδυνο!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*Περισσότερο* από τον ίδιο κίνδυνο!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[Έναν *άλλο* κοινωνικό κίνδυνο!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[Έναν *άλλο* ηθικό κίνδυνο!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[Έλεγξες το punch πριν πιεις;](#act2c_punch)
 
 #act2c_louder
 
@@ -675,15 +675,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: Μάλιστα, Netflix & delivery δεν είναι αρκετή καραντίνα! Θα μολύναμε και τον delivery guy!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: Πρέπει να μετακομίσουμε στον Καναδικό Yukon και να παίρνουμε φαγητό με drone!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: Και μετά θα έπρεπε να αποστειρώσουν το drone για τα SAD LUMP GERMS μας
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: Το ΜΕΓΑΛΟ ΑΠΟΡΡΗΤΟ ΣΚΟΥΠΙΔΙ ΠΕΡΒΕΡΤ θα καταδικαστεί σε 72 ώρες σε ένα από αυτά τα μεσαιωνικά μηχανήματα δημόσιας ντροπής
 
-b: unless they're secretly *into* that sort of thing
+b: εκτός αν κρυφά *αρέσκονται* με τέτοια
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: γιατί είναι ΜΕΓΑΛΟ ΑΠΟΡΡΗΤΟ ΣΚΟΥΠΙΔΙ ΠΕΡΒΕΡΤ
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +734,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: BUTTERFLY EFFECT! Χρησιμοποιείς ποτήρι πλαστικό που δεν biodegrade-άρει;
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: ΜΠΑΜ, ΜΙΑ ΧΥΤΑ ΡΙΧΝΕΙ ΔΗΛΗΤΗΡΙΟ ΚΑΙ ΣΚΟΤΩΝΕΙ ΕΝΑ ΠΑΙΔΙ
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: Ιδρώνεις και η καρδιά σου χτυπάει;
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: ΜΠΑΜ, ΧΡΕΟΚΟΠΕΙΣ ΤΟ ΣΥΣΤΗΜΑ ΥΓΕΙΑΣ ΜΑΣ ΚΑΙ ΠΕΘΑΙΝΟΥΝ ΕΚΑΤΟΜΜΥΡΙΑ
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,15 +758,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: Αυτοί οι pleasure-zombies θα στριμώχνουν προς σένα μουρμουρίζοντας,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: ΛΑΑΑΑΑΑΙΚΣ. ΛΑΑΑΑΑΑΑΑΑΙΚΣ.
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: Μετά θα ΣΕ ΔΑΓΚΩΣΟΥΝ και θα σε κάνουν BRAINLESS BRO και/ή THOUGHTLESS THOT!
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,15 +778,15 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: ΟΙ ΝΑΖΙ ΕΡΧΟΝΤΑΙ ΠΑΛΙ ΣΤΟΥΣ ΔΡΟΜΟΥΣ ΤΩΡΑ ΑΚΡΙΒΩΣ
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: Λέγοντας, *τι καλά που οι 'καλοί άνθρωποι' χαλάρωσαν με πράγματα σαν 'χαλάρωση' και 'self-care'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: *Τώρα τα σχέδιά μας μπορούν να προχωρήσουν fourth, reich on schedule!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -798,15 +798,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: Τώρα που το σκέφτομαι, ξέρουμε αν αυτό το κτίριο *έχει* ανιχνευτή μονοξειδίου;
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: Και αν μας δηλητηριάζουν *ΤΩΡΑ ΑΚΡΙΒΩΣ;*
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: ΔΕΝ ΘΑ'ΒΛΕΠΑΜΕ ΚΑΝ ΤΟΝ ΘΑΝΑΤΟ ΝΑ ΕΡΧΕΤΑΙ. ΑΠΛΑ ΘΑ ΣΤΑΜΑΤΟΥΣΑΜΕ ΝΑ ΥΠΑΡΧΟΥΜΕ ΓΙΑ ΠΑΝΤΑ ΚΑΙ ΠΑΝΤΑ ΚΑΙ ΠΑ--
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +818,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: Και αν απλά είμαστε *θεμελιωδώς ανίκανοι* να αγαπηθούμε ποτέ, ή να αγαπήσουμε κάποιον άλλο;
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: Και αν κάτι σπάσε αμετάκλητα μέσα μας πριν πολύ; Ή δεν υπήρχε ποτέ μέσα μας εξ'αρχής;
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: ΑΑΑ ΕΙΜΑΣΤΕ ΣΠΑΣΜΕΝΟΙ! ΤΟΣΟ ΣΠΑΣΜΕΝΟΙ ΤΟΣΟ ΣΠΑΣΜΕΝΟΙ ΤΟΣΟ ΣΠΑ--
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +836,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: Και αν απλά είμαστε *θεμελιωδώς σαπίσιμοι;*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: Οι άλλοι έχουν εσωτερικό κίνητρο να κάνουν καλό, αλλά εμείς κάνουμε "καλό" μόνο από ενοχή ή ντροπή, αν κάνουμε.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: Και αν είναι στη φύση μας να πληγώνουμε άλλους; Και αν δεν μπορούμε να είμαστε τίποτα *άλλο* παρά βάρος για όσους μας είναι κοντά;
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: ΑΑΑ ΕΙΜΑΣΤΕ ΣΠΑΣΜΕΝΟΙ! ΤΟΣΟ ΣΠΑΣΜΕΝΟΙ ΤΟΣΟ ΣΠΑΣΜΕΝΟΙ ΤΟΣΟ ΣΠΑ--
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,15 +858,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: Δεν είμαι παράλογος. Οι άνθρωποι *βάζουν* ναρκωτικά σε punch bowls. Είναι πραγματικό πράγμα που πραγματικά γίνεται.
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: Άνθρωπος, πονάει το κεφάλι σου; Τα άκρα σου είναι χαλαρά; Νομίζω πεθαίνουμε.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: ΑΑΑΑ ΠΕΘΑΙΝΟΥΜΕ! ΠΕΘΑΙΝΟΥΜΕ ΠΕΘΑΙΝΟΥΜΕ ΠΕΘΑΙ--
 
 `_.a2_attack_3 = "harm";`
 
@@ -898,70 +898,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: Γ^ΑΜΩ^!
 
-h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
+h: Γ^αμω^τό Γ^αμ^-Γ^αμ^ικό *Γ^άμω^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: Ναι, άνθρωπος! Χαίρομαι τόσο που με ακούς πάλι!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: Γιατί με αγνοούσες;
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: Μα τον ^διάολο^, είσαι απόλυτος ηλίθιος.
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: Ξέρεις εκείνη την ιστορία των Native Americans;
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: "Υπάρχουν δύο λύκοι μέσα σου, ένας είναι ελπίδα, ένας απελπιά, ποιος λύκος κερδίζει; Αυτός που τρέφεις."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: Προσπαθούσα να σε *λιμοκτονήσω*, sadistic ^μαλάκα^!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: Άντε, θα κάνω positive affirmations αντ'αυτού.
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *Μ' αγαπούν. Είμαι καλός. Είμαι έξυπνος. Είμαι όμορφος. Είμαι ξεχωριστός.*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[Θεέ μου, τόσο ναρκισσιστικό!](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[Ξέρεις ότι τα affirmations *αποδείχθηκαν λάθος;*](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[omg μην αποδίδεις τυχαίες ιστορίες σε indigenous folk](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: Μάλιστα, *αντιδρούν* για άτομα με χαμηλή αυτοεκτίμηση!
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: Ήταν καλοσχεδιασμένη μελέτη – randomized controlled trial, ο ερευνητής ήταν blinded για το ποιος ήταν σε ποια ομάδα.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: Αποτελέσματα: αν είχες ήδη χαμηλή αυτοεκτίμηση, το να σου ζητάνε να επαναλαμβάνεις affirmations σε κάνει να νιώθεις *χειρότερα* απ'ό,τι αν δεν έλεγες τίποτα!
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009, Psychological Science. Ψάξ' το στο Google Scholar, άνθρωπος,
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: ΤΟΤΕ ΣΤΑΜΑΤΑ ΝΑ ΔΙΑΔίΔΕΙΣ UNSCIENTIFIC FAKE NEWS
 
 ```
 hong({body:"attacked"});
@@ -977,19 +977,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: Πρέπει *να* δεις τα ελαττώματά σου με ταπεινότητα για να μεγαλώσεις ως άνθρωπος!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: Δεν μπορείς να ψεκάσεις air freshener πάνω από μουχλιασμένο δωμάτιο! Το να καλύπτεις τα ελαττώματά σου σε κάνει χειρότερο μακροπρόθεσμα.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: Ευτυχώς, εγώ, ως ο πιστός guard-wolf σου, μπορώ να σ' ειδοποιήσω για τα ελαττώματά σου. Και τώρα, είναι-
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
+b: ΤΑ ΠΑΝΤΑ. ΤΑ ΠΑΝΤΑ ΕΙΝΑΙ ΛΑΘΟΣ
 
 ```
 hong({body:"attacked"});
@@ -1005,15 +1005,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
+b: Οι Native Americans είναι *πραγματικοί άνθρωποι*, όχι κάποιοι "ευγενείς άγριοι" που μπορείς να αναφέρεις για να κάνεις τις fortune-cookie συμβουλές σου πιο *εξωτικές*.
 
 `bb({eyes:"suspect_r"})`
 
-b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
+b: Μειώνεις ξεχωριστά άτομα & πολύπλοκους πολιτισμούς σε Hallmark card! Αυτό είναι "benevolent racism"!
 
 `bb({body:"scream_b_1"})`
 
-b: STOP BEING RACIST YOU SQUINTY-EYED JERK
+b: ΣΤΑΜΑΤΑ ΝΑ ΕΙΣΑΙ ΡΑΤΣΙΣΤΗΣ ΣΚΑΣΜΕΝΕ
 
 ```
 hong({body:"attacked"});
@@ -1027,45 +1027,45 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^ASSDAMMIT^.
+h: ^ΓΑΜΩΤΟ^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: You know what? You're *irrational*.
+h: Ξέρεις κάτι; Είσαι *παράλογος*.
 
-h: Everyone knows emotions are irrational! Especially fear!
+h: Όλοι ξέρουν ότι τα συναισθήματα είναι παράλογα! Ειδικά ο φόβος!
 
 `hong({body:"facepalm_2"})`
 
-h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
+h: Είσαι άχρηστο εξελικτικό κατάλοιπο, σαν το σκωληκοειδή ή τα φρονιμήντια μου!
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
+h: ^Διάολε^, όλη αυτή η μεταφορά του λύκου είναι χαζή! Είσαι απλά νευρο-χημικά στο κεφάλι μου.
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
+h: Γιατί να ακούσω ένα άχρηστο, παράλογο, ανύπαρκτο κομμάτι ^σκατά^ σαν εσένα;
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Jeez, human. That's really hurtful.](#act2e_hurtful)
+[Θεέ μου, άνθρωπος. Αυτό πονάει πολύ.](#act2e_hurtful)
 
-[I'm a feeling. Feelings are valid.](#act2e_valid)
+[Είμαι συναίσθημα. Τα συναισθήματα είναι έγκυρα.](#act2e_valid)
 
-[Human, we're *both* "just chemicals."](#act2e_rational)
+[Άνθρωπος, είμαστε *και οι δύο* "απλά χημικά."](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
+b: Είμαι *μέρος* σου, ξέρεις. Όταν λες αυτό, πληγώνεις *τον εαυτό σου*.
 
 `bb({body:"scream_a_1"})`
 
-b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: Γιατί χτυπάς τον εαυτό σου, άνθρωπος; ΣΤΑΜΑΤΑ ΝΑ ΧΤΥΠΑΣ ΤΟΝ ΕΑΥΤΟ ΣΟΥ.
 
 ```
 music(null);
@@ -1082,23 +1082,23 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Your deepest motivations are dopamine, your richest joys are serotonin.
+b: Τα βαθύτερα κίνητρά σου είναι ντοπαμίνη, οι πλουσιότερες χαρές σου σεροτονίνη.
 
 `bb({body:"one_up"});`
 
-b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
+b: Οι αναμνήσεις σου είναι synaptic weights, ο λογισμός σου είναι επιρρεπείς σε βλάβες ηλεκτρικά σήματα.
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: Άρα αν το "απλά χημικά" σημαίνει ότι *εγώ* είμαι παράλογος... τότε σημαίνει ότι *εσύ* είσαι παράλογος!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: Κι αν είμαστε *και οι δύο* παράλογοι, τότε *ποτέ* δεν θα καταλάβουμε πώς να είμαστε ολοκληρωμένοι και χαρούμενοι!
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
+b: ΑΑΑΑ ΕΙΜΑΣΤΕ ΣΠΑΣΜΕΝΟΙ! ΤΟΣΟ ΣΠΑΣΜΕΝΟΙ ΤΟΣΟ ΣΠΑΣΜΕΝΟΙ ΤΟΣΟ ΣΠΑΣ--
 
 ```
 music(null);
@@ -1115,19 +1115,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: Μισό λεπτό... "αυτοί" λένε ότι τα συναισθήματα είναι έγκυρα, ότι πρέπει πάντα να αποδέχεσαι τα συναισθήματά σου.
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: Αλλά "αυτοί" λένε επίσης ότι τα συναισθήματα είναι παράλογα, ότι δεν πρέπει να τα εμπιστεύεσαι.
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: Ω Θεέ μου, "αυτοί" μας έλεγαν ψέματα όλο αυτόν τον καιρό!
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: "ΑΥΤΟΙ" ΜΑΣ ΤΑΙΖΟΥΝ ΑΝΤΙΦΑΣΕΙΣ ΓΙΑ ΝΑ ΜΑΣ ΚΑΝΟΥΝ ΕΞΑΡΤΗΜΕΝΟΥΣ ΑΠΟ ΤΟ SELF-HELP INDUSTRIAL COMPLEX
 
 ```
 music(null);
@@ -1146,62 +1146,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: Το μισώ αυτό. Θεέ μου πονάει τόσο πολύ το *μισώ* αυτό.
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: Δεν μπορώ να σε κατευνάσω. Δεν μπορώ να σε αγνοήσω. Δεν μπορώ να σε πολεμήσω.
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: Ό,τι κι αν κάνω, δεν μπορώ να σε ξεφορτωθώ--
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: Μάλλον ΔΕΝ *ΠΡΕΠΕΙ* ΝΑ Μ' ΞΕΦΟΡΤΩΘΕΙΣ.
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: Πώς νομίζεις νιώθω *εγώ*, άνθρωπος;
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: Προσπαθώ όσο μπορώ να είμαι το guard-dog σου, αλλά με βλέπεις σαν Big Bad Wolf!
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: Γι'αυτό προσπαθώ ακόμα *πιο* σκληρά να σ' ειδοποιήσω για κίνδυνο! *Περισσότερο* κίνδυνο! *Διαφορετικό* κίνδυνο!
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: Αλλά όσο κι αν προσπαθώ να σε προστατεύσω, *ακόμα* νομίζεις ότι είμαι ο εχθρός σου!
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: Τι κάνω λάθος;
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: Ξέρω ότι *άχρηστος* είμαι στη δουλειά μου. Αλλά *προσπαθώ*, άνθρωπος!
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: ...Προσπαθώ.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: Δεν χρειάζεται να ακούς τις προειδοποιήσεις μου, ή να συμφωνείς μαζί μου, ή καν να σ' *αρέσω*.
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: Απλά... το μόνο που θέλω είναι να είσαι υπομονετικός μαζί μου.
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: Απλά θέλω να καθίσεις μαζί μου λίγο, αντ'αυτού να γυρίσεις την πλάτη και--
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: Έι.
 
 ```
 hong({body:"look"});
@@ -1218,21 +1218,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: Φαίνεται ότι είσαι μπλέγμενος σε μάχη με τον εαυτό σου, μικρέ.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: Ήταν τόσο προφανές;
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: Ήσουν, εμ, να μουρμουρίζεις στο hoodie σου για {{_.a2_hoodie_callback}} ή κάτι τέτοιο.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1248,7 +1248,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: ω θεέ μου είμαι τέτοιο χάος.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,7 +1256,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: Έι. Δεν είσαι μόνος, φίλε. Το Άγχος είναι πολύ συχνό.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1264,38 +1264,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: Μάλιστα, χθες άκουσα κάποιον στο campus να έκανε νευρικό breakdown και έσπασε το τηλέφωνό του!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: Μάλιστα, χθες άκουσα κάποιον να κουλουριάστηκε σαν armadillo και να κλάει σε δημόσιο!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: Άκου: Ξέρω πώς είναι να'χεις αυτό το ζώο στο κεφάλι σου.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: Το κάνουμε *όλοι*. Γι'αυτό κάνω αυτά τα πάρτι κάθε Σαββατοκύριακο, για να ξεχνάμε τα προβλήματά μας, να ξεχνάμε εκείνο το ζώο.
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: αλλά το άγχος μου...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: Μην ανησυχείς, μικρέ. Κάποτε ήμουν σαν εσένα. Μετά βρήκα ένα μικρό κόλπο για να σωπάσει εκείνη η αρνητική φωνή για πάντα...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1325,14 +1325,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: Το δικό μου specialty blend. Είναι λίγο πιο δυνατό από... ε, από οτιδήποτε νόμιμο.
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: Στην υγειά μας, ^τσούλα^!
 
 ```
 hong({body:"hold"});
@@ -1345,27 +1345,27 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ω Θεέ μου.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Αυτό είναι κακός coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Μην παίρνεις ποτά από ξένους.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
-b: O--
+b: Ω--
 
 (#act2g)
 
 # act2g_2
 
-b: T--
+b: Θ--
 
 (#act2g)
 
 # act2g_3
 
-b: D--
+b: Δ--
 
 (#act2g)
 
@@ -1384,34 +1384,34 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: Μμμ, τι εκλεπτυσμένη παλέτα!
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: Γεύση "σώπα το μυαλό σου" με πλήρες σώμα, με λεπτό aftertaste του "να μη νιώθεις τίποτα ποτέ ξανά"!
 
-b: This is bad, human. This is really, really bad.
+b: Αυτό είναι κακό, άνθρωπος. Πραγματικά, πραγματικά κακό.
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Έτσι *πραγματικά* ξεκινάει ο εθισμός.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Το *ήξερα* ότι ο host ήταν βαθιά χαλασμένος!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Επίσης, μπορεί να το'χαν ναρκώσει!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
 
-b: This is *actu*--
+b: Αυτό είναι *πραγμα*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: Επίσης, μπο--
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: Το *ήξε*--
 
 (#act2h)
 
@@ -1430,17 +1430,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: Νόστιμο, *και* φθηνότερο από therapy!
 
-b: HUMAN PLEASE STOP
+b: ΑΝΘΡΩΠΕ ΣΕ ΠΑΡΑΚΑΛΩ ΣΤΑΜΑΤΑ
 
-h: Hehehe!
+h: Χεχεχε!
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: Και *εσύ* τι θα κάνεις γι' αυτό, ^μαλάκα^;
 
-b: I'm so sorry, human.
+b: Λυπάμαι τόσο πολύ, άνθρωπος.
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: Θα πρέπει να χρησιμοποιήσω το SPECIAL ATTACK μου
 
 ```
 bb({body:"special_a"});
@@ -1467,9 +1467,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: Τι είναι αυτό το ^σκατά^;
 
-h: You're gonna yap more stupid *words* at me to--
+h: Θα κελαηδάς περισσότερες χαζές *λέξεις* σε μένα για--
 
 ```
 bb({body:"special_c"});
@@ -1505,45 +1505,45 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: ΤΙ ^ΔΙΑΟΛΟ^ ΗΤΑΝ ΑΥΤΟ
 
-b: I'm sorry. I needed to show you the consequences.
+b: Λυπάμαι. Έπρεπε να σου δείξω τις συνέπειες.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: ΜΠΟΡΟΥΣΑ ΝΑ *ΔΩ* ΤΟ ΔΙΚΟ ΜΟΥ ΠΤΩΜΑ. ΜΠΟΡΟΥΣΑ ΝΑ *ΝΙΩΣΩ* ΤΗΝ ΑΙΣΘΗΣΗ ΤΟΥ ΝΑ ΕΙΜΑΙ ΠΡΑΓΜΑΤΙΚΑ ΝΕΚΡΟΣ.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: ΜΠΟΡΟΥΣΑ ΝΑ *ΔΩ* ΤΗΝ ΕΚΦΡΑΣΗ ΑΠΟΡΡΗΤΟΥ ΟΛΩΝ. ΜΠΟΡΟΥΣΑ ΝΑ *ΑΚΟΥΣΩ* ΟΛΑ ΤΑ ΠΡΑΓΜΑΤΑ ΠΟΥ ΕΙΠΑΝ.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: ΜΠΟΡΟΥΣΑ ΝΑ *ΑΚΟΥΣΩ* ΤΟ ΤΡΙΖΗΜΑ ΤΩΝ ΠΛΕΥΡΩΝ. ΜΠΟΡΟΥΣΑ ΝΑ *ΓΕΥΤΩ* ΤΟ ΑΙΜΑ ΣΤΟΝ ΑΕΡΑ.
 {{/if}}
 
-b: I'm sorry, human.
+b: Λυπάμαι, άνθρωπος.
 
-n: *FINISH THEM*
+n: *ΤΕΛΕΙΩΣΕ ΤΟΥΣ*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FIGHT: Δώσε μπουνιά στον host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FLIGHT: Ας φύγουμε από εδώ.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Εκείνος ο ψυχοπαθής σε εκμεταλλευόταν.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: Προσπαθούσαν να σε διαφθείρουν, να σε κάνουν τόσο χαλασμένο όσο αυτοί!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Δώσ' του μπουνιά στον μαλάκα! Βγάλ' του τα φώτα!
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: ΜΠΟΥΝΙΑ ΜΠΟΥΝΙΑ ΜΠΟΥΝΙΑ ΜΠΟΥΝΙΑ ΜΠΟΥΝΙΑ ΜΠΟΥΝΙΑ ΜΠΟΥΝΙΑ ΜΠΟΥΝΙ--
 
 `_.a2_ending = "fight";`
 
@@ -1551,15 +1551,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: Το *ήξερα* ότι όλοι αυτοί οι partiers ήταν βαθιά χαλασμένοι. Όλοι μουδιάζουν τον πόνο τους με φρικτά πράγματα!
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: Και σε κοροϊδεύουν να κάνεις το ίδιο! Σε διαφθείρουν! Πρέπει να φύγουμε!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥΓΕ ΦΥ--
 
 `_.a2_ending = "flight";`
 
@@ -1588,7 +1588,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Είσαι καλά, μικρέ;
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1620,7 +1620,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: Ε-εσύ...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1630,9 +1630,9 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: είσαι *kinky*.
 
-r: I like that. Come to my party next weekend, cutie.
+r: Μ'αρέσει αυτό. Έλα στο πάρτι μου το επόμενο Σαββατοκύριακο, κούκλα.
 
 ```
 publish("act2",["party_hunter",19]);
@@ -1641,11 +1641,11 @@ publish("act2",["party_hong",36]);
 
 h2: ok bye, ciao, adios, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: Το ζώο μπορεί να κέρδισε σήμερα, αλλά γύρνα, και θα φτιάξω κάτι ακόμα πιο δυνατό για σένα!
 
 h2: sayōnara, auf wiedersehen, zài jiàn, shalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Εσύ κι εγώ, μικρέ, θα δείξουμε σε εκείνο το θηρίο ποιος κυβερνά!
 
 (#act2k_end)
 
@@ -1653,23 +1653,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: ok sorry πρέπει να φύγω
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^Γαμώ^το. Το ζώο κέρδισε σήμερα, ε;
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: όχι όχι, απλά, εμ, πρέπει να τρέξω μαραθώνιο. gotta go fast.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Έλα στο πάρτι μου το επόμενο Σαββατοκύριακο, κούκλα. Θα φτιάξω κάτι ακόμα πιο δυνατό για σένα.
 
-h2: ok thanks gonna run run run run run
+h2: ok thanks θα τρέξω run run run run
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Εσύ κι εγώ, μικρέ, θα δείξουμε σε εκείνο το θηρίο ποιος κυβερνά!
 
 (#act2k_end)
 
@@ -1692,13 +1692,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: Άνθρωπος! Είσαι καλά;
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: Θεέ μου, ήταν *κοντά.* Πραγματικά θα μπορούσαμε--
 
 ```
 Game.clearText();
@@ -1716,11 +1716,11 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: Θα γυρίσω στο πάρτι το επόμενο Σαββατοκύριακο.
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: Την επόμενη φορά που θα πολεμήσουμε, δεν θα σε *νικήσω* απλά...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: Θα σε ^γαμήσω^ *σκοτώσω*.
 
 ```
 Game.clearText();

@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: ΚΑΙ ΑΥΤΟ ΕΙΝΑΙ ΤΟ ΆΓΧΟΣ ΤΟΥ ΑΝΘΡΩΠΟΥ
 
-n: _YOU_ ARE THE ANXIETY
+n: _ΕΣΥ_ ΕΙΣΑΙ ΤΟ ΆΓΧΟΣ
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Ω, γεια! Πάλι εδώ;
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: Η ΔΟΥΛΕΙΑ ΣΟΥ ΕΙΝΑΙ ΝΑ ΠΡΟΣΤΑΤΕΥΕΙΣ ΤΟΝ ΑΝΘΡΩΠΟ ΣΟΥ ΑΠΟ *ΚΙΝΔΥΝΟ*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: ΜΑΛΙΣΤΑ, ΤΟ ΝΑ ΞΑΝΑΠΑΙΖΕΙΣ ΑΥΤΟ ΤΟ ΠΑΙΧΝΙΔΙ ΤΟΥΣ ΒΑΖΕΙ ΣΕ *ΚΙΝΔΥΝΟ* ΤΩΡΑ
 
-n: QUICK, WARN THEM!
+n: ΓΡΗΓΟΡΑ, ΠΡΟΕΙΔΟΠΟΙΗΣΕ ΤΟΥΣ!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Άνθρωπο! Άκου, κινδυνεύουμε! Ο παίκτης...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...θα μας βασανίσει ξανά!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...δεν θα βρει εναλλακτικό τέλος!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...θα πάθει ludonarrative dissonance!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Θα μας κάνουν να μαζευτούμε σαν μπάλα και να κλάψουμε!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Θα μας κάνουν να σκοτώσουμε το τηλέφωνό σου επειδή σου έδωσε κρίση πανικού!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Θα μας κάνουν να *ΜΗΝ* χτυπήσουμε τον οικοδεσπότη του πάρτι!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Θα μας κάνουν να χτυπήσουμε τον Συμπαθητικό Anti-Villain οικοδεσπότη του πάρτι!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Λοιπόν, τουλάχιστον ίσως δεν πηδήξουμε από τη σκεπή αυτή τη φο--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: ΘΑ ΜΑΣ ΚΑΝΟΥΝ ΝΑ ΠΗΔΗΞΟΥΜΕ ΑΠΟ ΤΗ ΣΚΕΠΗ.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: ΟΛΑ ΑΥΤΑ ΤΑ ΝΕΑ ΤΡΟΜΕΡΑ ΠΡΑΓΜΑΤΑ ΘΑ ΜΑΣ ΣΥΜΒΟΥΝ, ΚΑΙ ΜΕΤΑ ΘΑ--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Ναι, η ιστορία *συνολικά* είναι ίδια, αλλά κάθε κεφάλαιο έχει δύο πιθανά τέλη, συν όλες τις διακλαδώσεις διαλόγου επιλο--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Ο παίκτης θα απογοητευτεί, θα κλείσει αυτό το tab, θα σβήσει το λογισμικό μας, και μετά θα--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Λιούντ-τι τώρα;
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Η ιστορία ήταν για το πώς μπορείς να *ΕΠΙΛΕΞΕΙΣ* να χτίσεις μια υγιή συνεργασία με τον φόβο σου,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Αλλά το να ξαναπαίζεις το παιχνίδι δίνει την ίδια ιστορία, υπονοώντας ότι οι *ΕΠΙΛΟΓΕΣ* σου δεν έχουν σημασία,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Έτσι δείχνοντας αντίφαση ανάμεσα στο μήνυμα του παιχνιδιού και τη μηχανική του,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Έτσι ξετυλίγοντας το ύφασμα αυτού του αφηγηματικού σύμπαντος,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Και μετά θα--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ΘΑ ΠΕΘΑΝΟΥΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Εντάξει, ας ξαναμπώ στον ρόλο.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (ΑΦΗΣΕ ΤΟ _ΔΙΚΟ ΣΟΥ_ ΆΓΧΟΣ ΜΠΛΑ ΜΠΛΑ ΜΠΛΑ Ο,ΤΙ ΜΟΙΑΖΕΙ ΠΕΡΙΣΣΟΤΕΡΟ ΜΕ ΤΟΝ _ΔΙΚΟ ΣΟΥ_ ΦΟΒΟ ΜΠΛΑ ΜΠΛΑ ΞΕΡΕΙΣ ΤΗ ΔΙΑΔΙΚΑΣΙΑ)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Α, καλά, ο λύκος μου γύρισε. Φααααανταστικά.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: Η ΔΟΥΛΕΙΑ ΣΟΥ ΕΙΝΑΙ ΝΑ ΠΡΟΣΤΑΤΕΥΕΙΣ ΤΟΝ ΑΝΘΡΩΠΟ ΣΟΥ ΑΠΟ *ΚΙΝΔΥΝΟ*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: ΜΑΛΙΣΤΑ, ΑΥΤΟ ΤΟ ΣΑΝΤΟΥΙΤΣ ΤΟΥΣ ΒΑΖΕΙ ΣΕ *ΚΙΝΔΥΝΟ* ΤΩΡΑ
 
-n: QUICK, WARN THEM!
+n: ΓΡΗΓΟΡΑ, ΠΡΟΕΙΔΟΠΟΙΗΣΕ ΤΟΥΣ!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Άνθρωπο! Άκου, κινδυνεύουμε! Ο κίνδυνος είναι...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (ΑΦΗΣΕ ΤΟ _ΔΙΚΟ ΣΟΥ_ ΆΓΧΟΣ ΝΑ ΒΓΕΙ ΝΑ ΠΑΙΞΕΙ! ΔΙΑΛΕΞΕ Ο,ΤΙ ΜΟΙΑΖΕΙ ΠΕΡΙΣΣΟΤΕΡΟ ΜΕ ΑΥΤΟ ΠΟΥ ΣΟΥ ΛΕΕΙ Ο _ΔΙΚΟΣ ΣΟΥ_ ΦΟΒΟΣ)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Τρώμε μόνοι μας το μεσημεριανό! Πάλι!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Δεν είμαστε παραγωγικοί όσο τρώμε!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Το λευκό ψωμί είναι κακό για μας!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Δεν ξέρεις ότι η μοναξιά συνδέεται με πρόωρο θάνατο όσο και 15 τσιγάρα την ημέρα;-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Ε, ευχαριστώ που παραθέτεις πηγές αλλά--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Άρα αν δεν βγούμε με κάποιον *τώρα αμέσως* θα--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ΘΑ ΠΕΘΑΝΟΥΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: ΧΡΗΣΙΜΟΠΟΙΗΣΕΣ *ΦΟΒΟ ΜΗ ΑΓΑΠΗΜΕΝΟΥ*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Βγάλε το laptop και δούλεψε τώρα αμέσως!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Ε, προτιμώ να μη βάλω ψίχουλα στο πληκτρολόγι--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Αν δεν συνεισφέρουμε στο σώμα της κοινωνίας, είμαστε παράσιτο της κοινωνίας!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Το σώμα-κοινωνία θα πάει στον γιατρό-κοινωνία για φάρμακα να σκοτώσει τα παράσιτα-κοινωνίας και μετά θα--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ΘΑ ΠΕΘΑΝΟΥΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: ΧΡΗΣΙΜΟΠΟΙΗΣΕΣ *ΦΟΒΟ ΚΑΚΟΥ ΑΝΘΡΩΠΟΥ*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Έχουν αναπαραχθεί αυτές οι μελέτες--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Το επεξεργασμένο σιτάρι θα ανεβάσει τη γλυκόζη μας κι έτσι θα μας κόψουν όλα τα άκρα και μετά θα--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ΘΑ ΠΕΘΑΝΟΥΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: ΧΡΗΣΙΜΟΠΟΙΗΣΕΣ *ΦΟΒΟ ΒΛΑΒΗΣ*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: ΕΙΝΑΙ ΥΠΕΡΑΠΟΤΕΛΕΣΜΑΤΙΚΟ
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Βλέπεις, άνθρωπο; Είμαι ο πιστός σου λύκος-φύλακας!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Πίστεψε το ένστικτό σου! Τα συναισθήματά σου είναι πάντα έγκυρα!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: ΦΕΡΕ ΤΗ ΜΠΑΡΑ ΕΝΕΡΓΕΙΑΣ ΤΟΥ ΑΝΘΡΩΠΟΥ ΣΟΥ ΣΤΟ ΜΗΔΕΝ
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: ΓΙΑ ΝΑ ΠΡΟΣΤΑΤΕΥΣΕΙΣ ΤΙΣ ΦΥΣΙΚΕΣ + ΚΟΙΝΩΝΙΚΕΣ + ΗΘΙΚΕΣ ΤΟΥ ΑΝΑΓΚΕΣ, ΜΠΟΡΕΙΣ ΝΑ ΧΡΗΣΙΜΟΠΟΙΗΣΕΙΣ:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: ΦΟΒΟ *ΒΛΑΒΗΣ* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: ΦΟΒΟ *ΜΗ ΑΓΑΠΗΜΕΝΟΥ* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: ΚΑΙ ΦΟΒΟ *ΚΑΚΟΥ ΑΝΘΡΩΠΟΥ* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (PRO-TIP: ΠΑΙΞΕ ΤΙΣ ΕΠΙΛΟΓΕΣ ΠΟΥ ΧΤΥΠΑΝΕ ΤΟΥΣ ΠΙΟ ΒΑΘΙΑ, ΣΚΟΤΕΙΝΑ ΦΟΒΑ ΣΟΥ!~)
 
 h: ...
 
@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: ξέρεις τι, ίσως ήρθε η ώρα να δω το τηλέφωνό μου.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: ΠΡΟΣΤΑΤΕΥΣΕ ΤΟΝ ΑΝΘΡΩΠΟ ΣΟΥ
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: ΑΠΟ ΤΟΝ ΚΟΣΜΟ. ΑΠΟ ΑΛΛΟΥΣ ΑΝΘΡΩΠΟΥΣ. ΑΠΟ ΤΟΝ ΕΑΥΤΟ ΤΟΥ.
 
-n: GOOD LUCK
+n: ΚΑΛΗ ΤΥΧΗ
 
 (...500)
 
@@ -408,38 +408,38 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: ΓΥΡΟΣ ΕΝΑ: *ΜΑΧΗ!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Χμ. Το Facebook λέει ότι γίνεται πάρτι αυτό το Σαββατοκύριακο.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Δεν κάνει αυτός ο περίεργος πάρτι *κάθε* Σαββατοκύριακο;
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Τι εσωτερικό κενό προσπαθούν να γεμίσουν; Πρέπει να είναι χάλια μέσα τους!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Επίσης, πήρα πρόσκληση;
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Λοιπόν!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Πες ναι, αλλιώς θα πεθάνουμε από μοναξιά!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Πες όχι, είναι γεμάτο δηλητηριώδη ναρκωτικά!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Αγνόησέ το, απλώς κάνουμε τα πάρτι λυπηρά.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Δεκαπέντε τσιγάρα την ημέρα, άνθρωπο! Δεκαπέντε!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,11 +447,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Μετά κανείς δεν θα έρθει στο κηδειόφορό μας, θα ρίξουν τη στάχτη μας στη θάλασσα, θα μας φάει μια φάλαινα,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: και θα γίνουμε ΚΟΠΡΑΝΑ ΦΑΛΑΙΝΑΣ!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,25 +468,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Οπότε ναι, πρέπει να πάμε σε εκείνο το πάρτι!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Απλώς πάρε το laptop να δουλέψουμε, και να μην είμαστε παράσιτο της κοινωνίας.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Μόνο να μη σερβίρουν ΛΕΥΚΟ ΨΩΜΙ
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: ΘΕΕ. Αν θα σε κάνω να σωπάσεις, εντάξει.
 
-h: I'll say yes.
+h: Θα πω ναι.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Κόπρανα φάλαινας, άνθρωπο! Κόπρανα φάλαινας!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +498,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: ή ακόμα χειρότερα... ΛΕΥΚΟ ΨΩΜΙ
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +506,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: Θα κάνουμε υπερβολική δόση σε τόσο μεθ και λευκό ψωμί που δεν θα χωρέσει το χοντρό πτώμα μας στον κρεματοριο!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: Θα κάνουμε υπερβολική δόση σε τόσα ναρκωτικά που ο νεκροθάφτης θα αναρωτηθεί πώς το σώμα μας ήταν *ήδη* εμβαλαμένο!
 {{/if}}
 
 ```
@@ -521,14 +521,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Εξάλλου, δεν μπορούμε να πάρτι, πρέπει να δουλέψουμε αλλιώς είμαστε τρομερό παράσιτο της κοινωνίας!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: ΘΕΕ. Αν θα σε κάνω να σωπάσεις, εντάξει.
 
-h: I'll say no.
+h: Θα πω όχι.
 
 `_.partyinvite="no"`
 
@@ -541,15 +541,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Το μόνο που κάνουμε ποτέ είναι να κλαίμε σε μια γωνιά για το πόσο θανατηφόρα είναι η μοναξιά όσο 15 τσιγάρα την ημέρα.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Το μόνο που κάνουμε ποτέ στα πάρτι είναι να ανησυχούμε ότι πρέπει να είμαστε παραγωγικοί.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Το μόνο που κάνουμε ποτέ είναι να ανησυχούμε ότι οι ανθυγιεινές επιλογές φαγητού θα μας σκοτώσουν.
 {{/if}}
 
 ```
@@ -557,19 +557,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: ααα, αναρωτιέμαι γιατί.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: Οπότε αν πάμε θα τους κάνουμε να νιώσουν άσχημα, αλλά αν απορρίψουμε την πρόσκληση θα τους κάνουμε κι αυτό να νιώσουν άσχημα!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: ΟΛΑ ΤΑ ΚΑΝΟΥΜΕ ΕΙΝΑΙ ΝΑ ΚΑΝΟΥΜΕ ΤΟΥΣ ΑΝΘΡΩΠΟΥΣ ΝΑ ΝΙΩΘΟΥΝ ΑΣΧΗΜΑ, ΟΠΟΤΕ ΠΡΕΠΕΙ ΝΑ ΝΙΩΘΟΥΜΕ ΑΣΧΗΜΑ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,9 +580,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Φου. Αν θα σε κάνω να σωπάσεις, εντάξει.
 
-h: I'll ignore the invite.
+h: Θα αγνοήσω την πρόσκληση.
 
 `_.partyinvite="ignore"`
 
@@ -595,19 +595,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Τέλος πάντων. Το Facebook είναι πολλά. Χρειάζομαι κάτι πιο ήρεμο, λιγότερο άγχος-παραγωγό.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Τι νέο στο Twitter;
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Ωχ όχι, κοίτα αυτό το φρικτό νέο!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Ωχ όχι, αυτό το tweet είναι κρυφά για *εμάς;*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Χε, ένα GIF με γάτα που πίνει γάλα](#act1d_milk)
 
 
 # act1d_news
@@ -617,14 +617,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Θεέ, νιώθω σαν να καίγεται ο κόσμος, έτσι δεν είναι;
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Νιώθω σαν να τελειώνει όλα, σαν να πεθαίνει τα πάντα και είμαστε καταδικασμένοι και δεν μπορούμε να κάνουμε τίποτα.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Ας κάνουμε retweet αυτό το νέο!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -653,11 +653,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Εντάξει θα κάνω retweet απλώς σώπασε παρακαλώ!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Στο διάολο, ας δούμε το Snapchat.
 
 (#act1e)
 
@@ -666,35 +666,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: Είναι subtweet! Ένα ύπουλο, ύπουλο subtweet!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Μάλλον όχι;
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: αλλά τι γίνεται αν μας κουβεντιάζουν πίσω από την πλάτη μας
 
-h: They're n--
+h: Δεν μ--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: ΜΠΡΟΣΤΑ ΑΠΟ ΤΗΝ ΠΛΑΤΗ ΜΑΣ
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Δε θ--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: αλλά *τι γίνεται αν*
 
-h: S--
+h: Σ--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *τι γίνεται αν*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: ε-ΝΤΑΞΕΙ, θα δοκιμάσω Snapchat.
 
 (#act1e)
 
@@ -727,7 +727,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Χε ναι αυτό είναι χαριτωμένο, μόλις το έκανα retweet, νομί--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: ΟΙ ΓΑΤΕΣ ΔΕΝ ΧΩΝΕΥΟΥΝ ΓΑΛΑ ΚΑΙ ΕΙΜΑΣΤΕ ΤΡΟΜΕΡΟΙ ΑΝΘΡΩΠΟΙ ΓΙΑΤΙ ΑΠΟΛΑΜΒΑΝΟΥΜΕ ΚΑΚΟΠΟΙΗΣΗ ΖΩΩΝ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -752,7 +752,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: ε-ΝΤΑΞΕΙ, θα δοκιμάσω Snapchat.
 
 (#act1e)
 
@@ -760,7 +760,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Χμ, φωτογραφίες από χθες το βράδυ. Άρα *έτσι* είναι τα εβδομαδιαία πάρτι.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -772,29 +772,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Ουφ, φαίνεται πολύ γεμάτο για το άγχος μου.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Ίσως δεν έπρεπε να είχα πει ναι στην πρόσκληση;
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Να αλλάξουμε την απάντηση; Σαν μαλάκας;](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Να αλλάξουμε την απάντηση! Είναι πολύ γεμάτο!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Ναι μας έκαναν σίγουρα subtweet.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Περίμενε, κάναμε retweet χωρίς fact-checking.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Ξέρεις, έχεις πολύ κακή στάση σώματος;](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -804,14 +804,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Μετρούσαν ότι θα έρθουμε και τώρα προδίδουμε την εμπιστοσύνη τους; Θέλεις να πεθάνεις μόνος;
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: ΔΕΚΑΠΕΝΤΕ. ΤΣΙΓΑΡΑ.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: ΚΟΠΡΑΝΑ. ΦΑΛΑΙΝΑΣ.
 {{/if}}
 
 ```
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Σώπα σώπα θα το κρατήσω ως ναι!
 
 (#act1f)
 
@@ -837,7 +837,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Δεν ξέρεις για τις ανθρώπινες ποδοπατήσεις;
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: Το 2003 ένα νυχτερινό κέντρο στη Rhode Island είχε φωτιά και ο πανικός έκανε τους ανθρώπους να μπλοκάρουν τις εξόδους κι έτσι 100 άνθρωποι κάηκαν ζωντανοί-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,14 +853,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: ΘΕΛΕΙΣ ΝΑ ΜΑΣ ΣΥΜΒΕΙ ΑΥΤΟ-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: ΠΕΣ ΟΧΙ ΠΕΣ ΟΧΙ ΠΕΣ ΟΧΙ ΠΕΣ ΟΧΙ ΠΕΣ ΟΧΙ ΠΕΣ ΟΧΙ ΠΕΣ ΟΧΙ ΠΕΣ Ο--
 
 
 ```
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Σώπα σώπα θα αλλάξω την απάντηση σε όχι! Θεέ!
 
 (#act1f)
 
@@ -884,35 +884,35 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Χμ... φαίνεται πολύ διασκεδαστικό.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Ίσως δεν έπρεπε να είχα πει όχι στην πρόσκληση;
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[Να αλλάξουμε την απάντηση; Σαν μαλάκας;](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[Να αλλάξουμε την απάντηση! Μην πεθάνεις μόνος!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Ναι μας έκαναν σίγουρα subtweet.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Περίμενε, κάναμε retweet χωρίς fact-checking.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Ξέρεις, έχεις πολύ κακή στάση σώματος;](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Όλοι μετρούσαν πάνω μας!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...να τους αφήσουμε ήσυχους και να έχουν ωραίο πάρτι χωρίς έναν απαίσιο αηδιαστικό {{if _.whitebread}}τρώγοντα-λευκό-ψωμί{{/if}} creep σαν εμ--
 
 
 ```
@@ -928,7 +928,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Σώπα σώπα θα το κρατήσω ως όχι!
 
 (#act1f)
 
@@ -939,7 +939,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Η χρόνια μοναξιά αυξάνει τα επίπεδα κορτιζόλης μας καθώς και τον κίνδυνο καρδιαγγειακών νοσημάτων και εγκεφαλικού!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -949,7 +949,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: ΔΕΚΑΠΕΝΤΕ. ΤΣΙΓΑΡΑ.
 {{/if}}
 
 ```
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Σώπα σώπα θα αλλάξω την απάντηση σε ναι! Θεέ!
 
 (#act1f)
 
@@ -969,14 +969,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: Όλα τα προβληματικά μας tweets γύρισαν να μας βρουν!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: Θα μας εκθέσουν και θα μας cancelάρουν και θα μας σύρουν με σκοινί σε άλογο στην υπερ-αυτοκινητόδρομο πληροφοριών!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -991,7 +991,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Γιατί είσαι έτσι;
 
 (#act1f)
 
@@ -1002,14 +1002,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: Διαδίδουμε παραπληροφόρηση! Καταστρέφουμε την εμπιστοσύνη στον ελεύθερο Τύπο!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: Είμαστε ο λόγος που ο φασισμός θα αναδυθεί από τα ερείπια της δημοκρατίας!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1025,7 +1025,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: Γιατί είσαι έτσι;
 
 (#act1f)
 
@@ -1036,13 +1036,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Θέλεις να έχεις σπονδυλική στήλη σαν πρέτζελ; Σταμάτα να σκύβεις πάνω στην οθόνη!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Αυτό σημαίνει κι εσύ.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1058,7 +1058,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Γιατί είσαι έτσι;
 
 (#act1f)
 
@@ -1066,27 +1066,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Χμ... φαίνεται πολύ διασκεδαστικό.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Ίσως δεν έπρεπε να είχα αγνοήσει την πρόσκληση;
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Συνέχισε να αγνοείς, είμαστε ακόμα party poopers.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Όντως, πες ναι.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Όντως, πες όχι.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Είναι λίγο αγενές να τους αγνοείς συνέχεια όμως, έτσι δεν είναι;
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Λοιπόν οι άλλοι πάντα αγνοούν *εμάς*, οπότε
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1097,7 +1097,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: ας το κάνουμε κουβάρι.
 
 (#act1f)
 
@@ -1105,9 +1105,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Μου... αφήνεις να διασκεδάσω;
 
-b: Well, I mean, loneliness *can* kill us.
+b: Λοιπόν, εννοώ, η μοναξιά *μπορεί* να μας σκοτώσει.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1117,7 +1117,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Είναι πολύ γεμάτο. Τα πλήθη είναι επικίνδυνα.
 
 (#act1e_yes_changetono)
 
@@ -1129,60 +1129,60 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: Ό,τι νά 'ναι. Νέα ειδοποίηση Tinder.
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: Τι, αυτή η εφαρμογή για one-night stands;
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: Δεν είναι εφαρμογή για one-night stands, είναι απλώς τρόπος να γνωρίσεις νέους ανθρώπ--
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: Είναι εφαρμογή για one-night stands.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: Ω, έκανα match! Φαίνονται χαριτωμένοι!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: Μην το χαλάσεις για μέ--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: ΚΙΝΔΥΝΟΣ ΚΙΝΔΥΝΟΣ ΚΙΝΔΥΝΟΣ ΚΙΝΔΥΝΟΣ ΚΙΝΔΥΝΟΣ ΚΙΝΔΥΝΟΣ
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[Μας *χρησιμοποιούν* άλλοι άνθρωποι.](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[Απλώς *χρησιμοποιούμε* άλλους ανθρώπους.](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[ΤΟ MATCH ΣΟΥ ΕΙΝΑΙ ΣΕΡΙΑΛ ΚΙΛΕΡ](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: Τα τυχαία one-night stands ίσως γεμίσουν την τρύπα εκεί κάτω,
 
-b: but they can never fill the hole...
+b: αλλά δεν μπορούν ποτέ να γεμίσουν την τρύπα...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: *εδώ* μέσα.
 
 (...1000)
 
@@ -1191,7 +1191,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: Το θέμα είναι ΘΑ ΠΕΘΑΝΟΥΜΕ ΜΟΝΟΙ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: Νομίζεις ότι τα γεννητικά όργανα άλλων είναι Pokémon για να τα μαζεύουμε;
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ Θέλω να γίνω, η πιο ^καμμένη^-
 
 (...500)
 
@@ -1240,7 +1240,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ Σαν κανείς ποτέ δεν ήταν-
 
 (...1500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ Μηροί κ' ^κώλοι^, στήθος πληθωρικό-
 
 (...500)
 
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ με ^dick^ και balls ιδρωμένα!-
 
 (...1000)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ ΠΕΡΒΥ-MON! ΠΡΕΠΕΙ ΝΑ ΤΑ--
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: Το θέμα είναι ότι είμαστε χειριστικό creep.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,19 +1295,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: Θα σε παγιδεύσουν σε ένα πηγάδι και θα σου ταΐζουν λευκό ψωμί να σε παχύνουν για να φορέσουν το δέρμα σου σαν κοστούμι!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: Θα σε κοπανήσουν με χρονόμετρο pomodoro και θα πουν «ΕΠΡΕΠΕ ΝΑ ΗΣΟΥΝ ΠΙΟ ΠΑΡΑΓΩΓΙΚΟΣ ΠΑΡΑΣΙΤΟ»
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: Θα σκίσουν τη σάρκα σου σε αιματηρά κομφετί, θα κάνουν τα σπλάχνα σου κορδέλες, και θα ανακατέψουν το αίμα σου σε μπολ με punch!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: Πώς σου φαίνεται αυτό για πρόσκληση σε πάρτι;
 {{/if}}
 
 ```
@@ -1334,7 +1334,7 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: βαρέθηκα αυτό το παιχνίδι.
 
 (...700)
 
@@ -1351,27 +1351,27 @@ h:
 {{if _.catmilk}}"cats can't digest milk"... {{/if}}
 {{if _.pokemon}}a ^crappy^ parody song... {{/if}}
 
-h: i just want to live my life.
+h: απλώς θέλω να ζήσω τη ζωή μου.
 
-h: i just want to be free from all this... pain.
+h: απλώς θέλω να είμαι ελεύθερος από όλο αυτό... τον πόνο.
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
+b: Χέι... άνθρωπο...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: Θα πάει καλά.
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: Ως ο πιστός σου λύκος-φύλακας, θα κρατάω πάντα τα μάτια μου ανοιχτά για κίνδυνο, και θα κάνω ό,τι μπορώ να σε κρατήσω ασφαλή.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: Το υπόσχομαι.
 
 (...600)
 
@@ -1380,29 +1380,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: Τελευταία εφαρμογή. Instagram. Τι έχεις;
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: Είναι... περισσότερες φωτογραφίες από πάρτι.
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: Όλοι φαίνονται τόσο χαρούμενοι. Ελεύθεροι από ανησυχίες. Ελεύθεροι από άγχος.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: Θεέ, γιατί δεν μπορώ να είμαι σαν αυτούς; Γιατί δεν μπορώ απλώς να είμαι *κανονικός;*
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: Μιλώντας για πάρτι, για την πρόσκληση αυτού του Σαββατοκύριακου. Η ΤΕΛΙΚΗ μου απόφαση:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[Πρέπει να πάμε.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Δεν πρέπει να πάμε.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1418,39 +1418,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: Πρέπει ν--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: *^ΓΑΜΩΤΟ^.*
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: ΕΣΥ.
 
 (...500)
 
-b: w
+b: τ
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: τι;
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: Θα πω ΝΑΙ σε εκείνο το πάρτι,
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: ΟΧΙ επειδή θέλεις εσύ, αλλά επειδή θέλω *εγώ*.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: Ακριβώς ΕΠΕΙΔΗ δεν θέλεις εσύ.
 {{/if}}
 
 ```
@@ -1458,14 +1458,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: ΔΕΝ ελέγχεις εμένα.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: Τώρα συγχώρησέ με ενώ τρώω αυτό το νόστιμο σάντουιτς με ^γαμημένη^ ησυχία.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1503,11 +1503,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[ΑΑΑΑΑ ΘΑ ΠΕΘΑΝΟΥΜΕ](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[ΑΑΑΑΑ ΜΑΣ ΜΙΣΟΥΝ ΟΛΟΙ](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[ΑΑΑΑΑ ΕΙΜΑΣΤΕ ΤΡΟΜΕΡΟΙ ΑΝΘΡΩΠΟΙ](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: ΑΑΑΑΑ ΘΑ ΠΕΘΑΝΟΥΜΕ ΑΑΑΑΑΑΑΑΑΑ
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1534,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: ΑΑΑΑΑ ΜΑΣ ΜΙΣΟΥΝ ΟΛΟΙ ΑΑΑΑΑΑΑΑΑΑ
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: ΑΑΑΑΑ ΕΙΜΑΣΤΕ ΤΡΟΜΕΡΟΙ ΑΝΘΡΩΠΟΙ ΑΑΑΑΑΑΑΑΑΑ
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,39 +1570,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: ΣΥΓΧΑΡΗΤΗΡΙΑ
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: ΠΡΟΣΤΑΤΕΥΣΕΣ ΕΠΙΤΥΧΩΣ ΤΙΣ ΦΥΣΙΚΕΣ + ΚΟΙΝΩΝΙΚΕΣ + ΗΘΙΚΕΣ ΑΝΑΓΚΕΣ ΤΟΥ ΑΝΘΡΩΠΟΥ ΣΟΥ
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: ΚΟΙΤΑ ΠΩΣ ΕΙΝΑΙ ΕΥΓΝΩΜΟΝΕΣ!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: ΤΩΡΑ ΠΟΥ Η ΕΝΕΡΓΕΙΑ ΤΟΥΣ ΕΙΝΑΙ ΜΗΔΕΝ, ΜΠΟΡΕΙΣ ΝΑ ΕΛΕΓΧΕΙΣ ΑΜΕΣΑ ΤΙΣ ΠΡΑΞΕΙΣ ΤΟΥΣ
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: ΔΙΑΛΕΞΕ ΤΗΝ ΤΕΛΙΚΗ ΚΙΝΗΣΗ ΣΟΥ
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *ΤΕΛΕΙΩΣΕ ΤΟΥΣ*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{ΜΑΧΗ: Τιμώρησε το αγχωτικό σου τηλέφωνο!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{ΦΥΓΗ: Μαζέψου σαν μπάλα και κλάψε!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: Το τηλέφωνό σου σου έδινε κρίση πανικού!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: Ο Zuckerberg και η παρέα του κάνουν hijack την ψυχική σου υγεία για λεφτά venture capital!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: Τιμώρησε το τηλέφωνό σου! Κατάστρεψέ το! Σκότωσέ το!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚΟΤΩΣΕ ΤΟ ΣΚ--
 
 (#act1j)
 
@@ -1627,7 +1627,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: Ολόκληρος ο κόσμος είναι γεμάτος κίνδυνο!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: Κάνε σαν το αρμαντίγιο! Μαζέψου σαν μπάλα για αυτοάμυνα!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: ΜΑΖΕΨΟΥ ΚΑΙ ΚΛΑΨΕ ΜΑΖΕΨΟΥ ΚΑΙ ΚΛΑΨΕ ΜΑΖΕΨΟΥ ΚΑΙ ΚΛΑΨΕ ΜΑΖΕΨΟΥ ΚΑΙ ΚΛΑΨΕ ΜΑΖΕΨΟΥ ΚΑΙ ΚΛΑ-- 
 
 (#act1j)
 

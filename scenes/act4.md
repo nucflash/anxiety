@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (αυτόματη αποθήκευση παιχνιδιού)
 
 ```
 Game.clearText();
@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *αναστεναγμός*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Και λοιπόν, ποιο ^διάολο^ ήταν το ηθικό δίδαγμα αυτής της ιστορίας;
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Τι *μάθαμε* καλά κιολάς; *Ήμουν* βλάκας, οι «φίλοι» μου με *εκμεταλλεύονταν*, και σχεδόν γαμώ *πεθάναμε*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Ναι, κι αυτό χωρίς τον λογαριασμό του νοσοκομείου.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Ναι, κι αυτό χωρίς τη ζημιά στο συκώτι.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Ναι, αυτό *ήταν* το χειρότερο σενάριο.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Ναι, είχα δίκιο.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Σωστά. Δεν νομίζω ότι η ασφάλειά μου καλύπτει «να είσαι ^βλάκας^».
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Κι όμως... επιβιώσαμε!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Σίγουρα μειώσαμε την προσδόκια ζωής μας κατά μερικά χρόνια...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Αλλά τουλάχιστον *έχουμε* ακόμα προσδόκια ζωής! Επιβιώσαμε!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Κι όμως...
 
-h: Hm?
+h: Χμ;
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Επιβιώσαμε!
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Αλλά... κι εσύ είχες δίκιο.
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: Χμ;
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Ήμουν ο λύκος που φώναζε «Λύκος!». Οπότε όταν ήρθε *πραγματικός* κίνδυνος, εσύ – δικαιολογημένα – δεν με *πίστεψες*.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Κι όμως, επιβιώσαμε!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Παρ' όλα αυτά, είμαστε ακόμα εδώ.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Φαίνεσαι αρκετά ήρεμος/η, σκέφτομαι ότι μόλις είχαμε μια εμπειρία κοντά στον θάνατο.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Φαίνεσαι αρκετά ήρεμος/η, σκέφτομαι ότι μόλις είχαμε μια εμπειρία *κοντά* στον κοντά-θάνατο.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Λοιπόν, κάνει όλα τα άλλα λιγότερο τρομακτικά σε σύγκριση. Με έβαλε κιόλας να σκέφτομαι.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Αν το να σε πολεμώ είναι άχρηστο, γιατί δεν σε προστατεύει...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Αλλά το να σε πολεμώ *κιόλας* είναι άχρηστο, γιατί απλώς σε κάνει να φωνάζεις πιο δυνατά...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Τότε ίσως...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Ίσως δεν χρειάζεται να πολεμάμε.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Δεν είμαι ο Μεγάλος Κακός Λύκος. Αλλά ούτε φρουρός-λύκος είμαι.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Είμαι ένας κακοποιημένος σκύλος από καταφύγιο.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Περάσαμε δύσκολα πράγματα. Ίσως τραύμα ή παραμέληση. Γι' αυτό μερικές φορές υπερβάλλω και πάω:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: ΓΑΥ ΓΑΥ ΓΑΥ ΓΑΥ ΓΑΥ
 
 (...1884)
 
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Αλλά δεν *θέλω* να είμαι δειλός σκύλος! Θέλω να σε προστατεύω! Θέλω να είμαι καλός σκύλος!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Άνθρωπο... θα βοηθήσεις να εξημερώσουμε αυτόν τον λύκο;
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Ε... θα προσπαθήσω.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Εντάξει. Υγιής σχέση με τα συναισθήματα. Οι σχέσεις χρειάζονται επικοινωνία. Λοιπόν, ας επικοινωνήσουμε.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Τα επόμενα πέντε λεπτά θα ακούγονται πολύ τυριά, αλλά ας το κάνουμε μέχρι να το πιστέψουμε.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Αγαπητέ εσωτερικέ λύκε... πώς *νιώθεις*;
 
-n2: TOTAL FEARS USED:
+n2: ΣΥΝΟΛΟ ΦΟΒΩΝ ΠΟΥ ΧΡΗΣΙΜΟΠΟΙΗΘΗΚΑΝ:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *ΒΛΑΒΗ* {{_.attack_harm_total}}, *ΜΗ ΑΓΑΠΗΜΕΝΟΥ* {{_.attack_alone_total}}, *ΚΑΚΟΣ* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: ΓΙΑ ΠΟΙΟΝ ΦΟΒΟ ΘΕΛΕΙΣ ΝΑ ΜΙΛΗΣΟΥΜΕ ΠΡΩΤΑ; (ΤΟΥΣ ΑΛΛΟΥΣ ΜΠΟΡΕΙΣ ΜΕΤΑ)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Φοβάμαι ότι θα βλαφτούμε.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Φοβάμαι ότι θα μείνουμε μόνοι.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Φοβάμαι ότι είμαστε κακοί άνθρωποι.](#act4_bad)
 
 # act4_harm
 
@@ -462,92 +462,92 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Θέλω να προστατεύσω την ανάγκη σου για σωματική ασφάλεια,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Αλλά ο *ολόκληρος κόσμος* φαίνεται τόσο επικίνδυνος. Γεμάτος τραγωδία και κακία.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Δεν ξέρω, αρκετά με *εμένα* να διαλέγω τι θα πω μετά. Εσύ τι λες, *άνθρωπε*;
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Πάλι, η σειρά σου, άνθρωπε. Τι πιστεύεις;
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Άλλες σκέψεις, άνθρωπε;
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Έχεις δίκιο. Ας προστατευτούμε.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Ας εκθέσουμε τον εαυτό μας σε *περισσότερο* κίνδυνο.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Ευχαριστώ.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Αλλά... πώς; Έχω κυνόδοντες και νύχια, αλλά είμαι απλώς μεταφορά.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Μπορούμε να μάθουμε αυτοάμυνα; Να μπούμε σε κοινότητα που προστατεύει ο ένας τον άλλον; Να βελτιώσουμε την υγεία μας και τα προσωπικά μας όρια;
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Ίσως, αλλά...
 
-[Where do we even start?](#act4_harm_skills_start)
+[Από πού ξεκινάμε καλά κιολάς;](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Κι αν δεν δουλέψουν;](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Κι αν το παρακάνουμε με την «ασφάλεια»;](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Υπάρχει τόσα πολλά να κάνουμε, τόσα που πρέπει να διορθώσουμε στον εαυτό μας. Με τι *αρχίζουμε* καλά κιολάς;
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Αρχίζουμε τώρα.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: Ε;
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Εξασκούμε καλή επικοινωνία αυτή τη στιγμή. Αυτό θα μας βοηθήσει να εντοπίζουμε καλύτερα τον κίνδυνο, με λιγότερα ψευδή θετικά,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: Και *αυτό* θα μας βοηθήσει να προστατευτούμε από βλάβη!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Άρα: αυτό *είναι* εκπαίδευση αυτοάμυνας.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Χμ. Περίμενα κάτι πιο τέτοιο:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Σωστά, δεν υπάρχει τρόπος να προστατευτούμε 100%...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Αλλά ακόμα κι ένα 1% βελτίωση αξίζει κάτι, έτσι δεν είναι;
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Βλέπεις το ποτήρι όχι 99% άδειο, αλλά 1% γεμάτο;
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Που ακόμα κι αυτό αξίζει κάτι αν έχεις αποκλειστεί στην έρημο.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Λοιπόν. Στην υγειά μας, τότε.
 
 (#act4_something_else)
 
@@ -594,26 +594,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Εννοώ, ο λόγος που αγνόησες τις προειδοποιήσεις μου ήταν ότι *εγώ* το παρέκανε με την ασφάλεια! 
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Όχι, έχεις δίκιο. Θα θέλαμε ασφάλεια με μέτρο. Όλα με μέτρο.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Συγγνώμη, *ΟΛΑ* με μέτρο;
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *Ένας μέτριος αριθμός πραγμάτων* με μέτρο.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Ευχαριστώ που έκανες τις δηλώσεις σου αναδρομικά αυτοσυνεπείς.
 
 (#act4_something_else)
 
@@ -622,45 +622,45 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *ΤΙ*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Εννοώ, ας πούμε ότι ένας σκύλος φοβάται την καταιγίδα.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Ένα κόλπο που χρησιμοποιούν οι εκπαιδευτές είναι να παίζουν ηχογράφηση βροντής σε χαμηλή ένταση, και μετά να δίνουν λιχουδιά στον σκύλο αν μείνει ήρεμος.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Σε μερικές μέρες, ο εκπαιδευτής ανεβάζει την ένταση λίγο-λίγο, μέχρι ο σκύλος να ξεπεράσει τον φόβο του για την καταιγίδα.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: Λέγεται θεραπεία έκθεσης!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Εφόσον είσαι σκύλος, θα δούλευε κι εσένα, έτσι; Όλα τα θηλαστικά έχουν την ίδια αντίδραση πάλης-ή-φυγής.
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[Κι αν αποευαισθητοποιηθούμε *πάρα* πολύ;](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[Κι αν εκτεθούμε σε *πραγματικό* κίνδυνο;](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Είμαι λύκος, όχι σκύλος.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: Κι εγώ θα σου δείξω καλοσύνη και υπομονή μέχρι να εξημερωθείς σε χαριτωμένο μικρουδάκι.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: Ωχ.
 
 (#act4_something_else)
 
@@ -676,35 +676,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: Μόλις *είδαμε* τι γίνεται αν κλείνεις τον φόβο σου – μπαίνεις σε *πραγματικά* επικίνδυνες καταστάσεις.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Εξάλλου, δεν θα μας κάνει *υπερβολική* αποευαισθητοποίηση ψυχοπαθείς;
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: Σύντομα θα μας δίνουμε λιχουδιές ενώ βλέπουμε snuff murder porn!
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Ε... νομίζω υπάρχει μια γραμμή ανάμεσα σε αυτό και την καταιγίδα.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: Αλλά ακριβώς *πού*, άνθρωπε; *Πού;!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Δεν ξέρω. Αλλά *εσύ* μπορείς να με βοηθήσεις!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Δουλεύοντας και διαπραγματευόμενοι μαζί σου, θα σχεδιάσουμε αυτή τη γραμμή.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Εντάξει. Αλλά δεν έχω αντίθετους αντίχειρες, οπότε εσύ πρέπει να κάνεις το σχέδιο.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: Για παράδειγμα: πηδήξαμε από μια γαμημένη *σκεπή!*
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: Για παράδειγμα: σχεδόν πηδήξαμε από μια γαμημένη *σκεπή!*
 {{/if}}
 
 ```
@@ -725,17 +725,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Όχι, έχεις δίκιο. Μπορεί κανείς να το *παρακάνει*.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: Αλλά γι' αυτό, αν κάνουμε θεραπεία έκθεσης, θα ξεκινήσουμε μικρά και θα ανεβαίνουμε σιγά-σιγά.
 
-h: Just before we hit *actual* danger, we stop.
+h: Λίγο πριν φτάσουμε σε *πραγματικό* κίνδυνο, σταματάμε.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: Ναι, εγώ βάζω τη γραμμή ανάμεσα στο να ακούς δυνατή βροντή και στο να στέκεις σε καταιγίδα με ψηλό μυτερό καπέλο.
 
 (#act4_something_else)
 
@@ -763,11 +763,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Περίμενε, κανένα επιχείρημα υπέρ ή κατά αυτού που νιώθω; Απλώς... «ευχαριστώ»;
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Ναι! Ευχαριστώ που έδειξες ότι σε νοιάζει η {{_.thanks_for}} μου.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,67 +776,67 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Είσαι εντάξει;
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Δεν μου είχες πει ποτέ *ευχαριστώ* πριν.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Ω ρε μεγάλο μαλλιασμένο πανικολύκο.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: Ακόμα κι αν υπερβάλλεις, εκτιμώ που φροντίζεις για την {{_.thanks_for}} μου.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Περίμενε... δεν επαναλαμβάνεις απλώς «ευχαριστώ» για να αποφύγεις να μιλήσουμε για αυτούς τους φόβους, έτσι;
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: Λοιπόν, τα πράγματα είναι περίπλοκα και δεν έχω πάντα έτοιμες απαντήσεις.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Δεν είναι σαν η ζωή να σου δίνει λίστα με 3 έτοιμες απαντήσεις διαλόγου.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Αλλά προς το παρόν, μπορώ τουλάχιστον να πω ευχαριστώ.
 
-b: Well, thank you too, for listening to me patiently.
+b: Λοιπόν, κι εγώ ευχαριστώ που με άκουσες υπομονετικά.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Εσύ, μικρό γυμνό σαρκοθηλαστικό.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: Ακόμα κι αν το γαύγισμά σου με τρομάζει, απλώς προσπαθείς να προστατεύσεις την {{_.thanks_for}} μου.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Εντάξει, αν συνεχίσεις να με κολακεύεις έτσι, το ίντερνετ θα βγάλει περίεργες ιδέες για μας.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Έλα, είμαι απλώς ένα ευάλωτο παιδί κολεγίου κι εσύ είσαι ένας μεγάλος, τρομακτικός λύκος. Τι χειρότερο μπορεί ν--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Μάλλον, μην απαντήσεις.
 
 (#act4_something_else)
 
@@ -852,33 +852,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Θέλω να βεβαιωθώ ότι ικανοποιείς εκείνη τη βαθιά, ανθρώπινη ανάγκη να ανήκεις κάπου...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Αλλά φοβάμαι ότι αν κάποιος μάθαινε ποτέ τον *πραγματικό* μας εαυτό – θα μας τρόμαζαν όλοι.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Δεν ξέρω, αρκετά με *εμένα* να διαλέγω τι θα πω μετά. Εσύ τι λες, *άνθρωπε*;
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Πάλι, η σειρά σου, άνθρωπε. Τι πιστεύεις;
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Άλλες σκέψεις, άνθρωπε;
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Συμφωνώ: ας δουλέψουμε την κοινωνική μας ζωή.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Νομίζω μας συμπαθούν. Ας το μάθουμε;](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Ευχαριστώ.](#act4_thanks) `_.thanks_for = "social belonging";`
 
 # act4_alone_skills
 
@@ -887,60 +887,60 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Μπορούμε να εξασκηθούμε σε δεξιότητες όπως να κάνουμε ερωτήσεις, να ακούμε και να ενσυπαθούμε, να είμαστε ανοιχτοί και ευάλωτοι, κ.λπ.;
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: Ή να φτιάξουμε καλύτερες κοινωνικές συνήθειες, όπως να προγραμματίζουμε χρόνο με φίλους ή να πηγαίνουμε τακτικά σε meetups;
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: Μπορούμε επίσης να μάθουμε να νιώθουμε πιο άνετα με την απόρριψη.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: Ή να μάθουμε πότε οι άνθρωποι *δεν* μας απορρίπτουν, απλώς είναι κουρασμένοι ή έχουν Resting ^Bitch^ Face.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Αυτό είναι πολλές επιλογές. Αλλά, για το «μάθημα κοινωνικών δεξιοτήτων»...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Δεν είναι αυτό *χειραγώγηση*;](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Δεν θα μας κάνει *πιο εύκολους στη χειραγώγηση*;](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[Κι αν αποτύχουμε;](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: Δεν είναι οι σειριακοί δολοφόνοι που διαβάζουν τα συναισθήματα των θυμάτων τους τέλειοι στην «ενσυπάθεια»;
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: Δεν κέρδισε ο Charles Manson φίλους και επιρροή;
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: Όχι, έχεις δίκιο.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: Οι «κοινωνικές δεξιότητες» δεν σημαίνουν τίποτα αν δεν νοιαζόμαστε *για* τους ανθρώπους.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: Βασικά, απλώς μην είσαι ^μαλάκας^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Αυτό είναι λεζάντα για αφίσα κινήτρου.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: «Μην Είσαι ^Μαλάκας^™»
 
 (#act4_something_else)
 
@@ -948,29 +948,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Θα γίνουμε χαλάκι εισόδου που λέει Please and Thank You ενώ μας σκουπίζουν τα πόδια!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Θα φιλάμε τόσο πολύ κώλο που θα μοιάζουμε ότι φοράμε καφέ κραγιόν!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Όχι, έχεις δίκιο. Οι «κοινωνικές δεξιότητες» δεν μπορούν να είναι μόνο για να ευχαριστείς τους άλλους, πρέπει να είναι και για να βάζεις *όρια.*
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Δεν μπορούμε να καλέσουμε άλλους στο σπίτι μας, αν δεν έχουμε τοίχους να κρατήσουν το σπίτι μας.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Επίσης... για εκείνη την εικόνα με το κραγιόν... *εεε??*
 
 (#act4_something_else)
 
@@ -978,26 +978,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: Μπορεί να αποτύχουμε. Μάλιστα, *θα* αποτύχουμε.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: Και αυτό είναι εντάξει! Η αποτυχία είναι πώς μαθαίνει κανείς οτιδήποτε νέο στην αρχή!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Λοιπόν ας αποτύχουμε μαζί και να προχωράμε, ε;
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Εντάξει, νομίζω... χειρότερη περίπτωση, απλώς φεύγουμε πόλη και παίρνουμε νέα ταυτότητα.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Ναι, νομίζω αυτό κοστίζει μόνο δύο bitcoin αυτές τις μέρες.
 
 (#act4_something_else)
 
@@ -1008,33 +1008,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Μπορούμε να δοκιμάσουμε μερικά πειράματα!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Μπορούμε να στείλουμε μήνυμα σε φίλο να βγούμε, να ξανασυνδεθούμε με παλιό φίλο, ή ακόμα κι απλώς να κουβεντιάσουμε με έναν barista.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Νομίζω μπορεί να ανακαλύψουμε ότι είμαστε πιο συμπαθητικοί απ' ό,τι υποψιαζόμαστε.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Κι αν αυτά είναι μικρές, φτηνές «νίκες»;](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[Κι αν είμαστε βάρος για τους άλλους;](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Αλλά τα κουβένια δεν είναι ο *πραγματικός* μας εαυτός!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Αν βάλουμε ρηχό χαμόγελο, δεν θα συνδεθούμε ποτέ πραγματικά με κανέναν,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Αλλά* αν ανοίξουμε, οι άλλοι θα δουν όλα τα χαλασμένα εσωτερικά μας!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1045,64 +1045,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Γύρνα.
 
-b: What.
+b: Τι.
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Όταν οι σκύλοι θέλουν να δείξουν αγάπη και εμπιστοσύνη, κάνουν τον εαυτό τους ευάλωτο εκθέτοντας την κοιλιά τους.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Ίσως δεν είμαστε *ακόμα* αρκετά ασφαλείς για να είμαστε πολύ ευάλωτοι, αλλά με αρκετή εξάσκηση,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Μια μέρα μπορούμε να δείξουμε στους ανθρώπους τον πραγματικό μας εαυτό – όλο χαλασμένο, όλο ανθρώπινο.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Θα γυρίσω αν μου δώσεις λιχουδιά.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: Όχι.
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Το να πεις «γεια» στον barista δεν είναι ακριβώς χρυσό μετάλλιο στους Ολυμπιακούς Κοινωνικών Πεταλούδων.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: Για *εμάς* είναι!
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: Στην κοινωνική αρένα, δεν είμαστε καν featherweight, είμασαι σαν... quark-weight.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Αν πρέπει να ξεκινήσουμε με μικρές, φτηνές νίκες, έτσι να 'ναι. Πρέπει να ανέβεις το 1ο σκαλί πριν το 1000ο.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Ναι! Ίσως αφού πούμε «Γεια», να προχωρήσουμε στο...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *«Τι κάνεις;»*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *«Όχι πολλά!»*
 
 (#act4_something_else)
 
@@ -1110,29 +1110,29 @@ h: *"Not much!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Ίσως ο barista απλώς θέλει να φτιάξει τον καταραμένο καφέ του, όχι να είναι *πείραμα* για το αν οι κοινωνικές μας δεξιότητες αποτυγχάνουν.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Λοιπόν, αν τελικά *είμαστε* βάρος...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: Κι αυτό είναι καλό να το ξέρουμε!
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Μπορούμε τότε να μάθουμε πώς να ρωτάμε προληπτικά τους ανθρώπους τι τους βολεύει, να γνωρίζουμε και να σεβόμαστε τα όρια των άλλων.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Ξέρεις, όλα αυτά τα «διαπροσωπικά δεξιότητες» ^σκατά^ που βλέπουμε σε φυλλάδια συμβούλων.
 
 (#act4_something_else)
 
@@ -1147,43 +1147,43 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: Θέλω να υπερασπιστώ τις ηθικές σου ανάγκες, αυτή την πίστη να γίνεσαι καλύτερος άνθρωπος,
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Αλλά βαθιά μέσα μου νιώθω ότι είμαστε τόσο θεμελιωδώς... χαλασμένοι.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: Και μη μου πεις ότι *δεν* είμαστε χαλασμένοι. Πηδήξαμε από μια *σκεπή*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: Και μη μου πεις ότι *δεν* είμαστε χαλασμένοι. Σχεδόν πηδήξαμε από μια *σκεπή*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Δεν ξέρω, αρκετά με *εμένα* να διαλέγω τι θα πω μετά. Εσύ τι λες, *άνθρωπε*;
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Πάλι, η σειρά σου, άνθρωπε. Τι πιστεύεις;
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Άλλες σκέψεις, άνθρωπε;
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[Άρα είμαστε χαλασμένοι. Ας μας φτιάξουμε.](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[Άρα είμαστε χαλασμένοι. Ας το αποδεχτούμε.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Ευχαριστώ.](#act4_thanks) `_.thanks_for = "moral well-being";`
 
 # act4_bad_fix
 
@@ -1192,48 +1192,48 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: Μπορούμε σιγά-σιγά να χτίσουμε καλύτερες συνήθειες, να ευθυγραμμίσουμε τη ζωή μας με αυτό που εκτιμούμε,
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: Κι αν χρειαστεί, μπορούμε να πάρουμε επαγγελματική βοήθεια – θεραπευτή ή σύμβουλο.
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: Υπάρχουν τρόποι να μας φτιάξουμε.
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[Κι αν δεν μπορούμε να τα φτιάξουμε όλα;](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[Κι αν φτιάξουμε *πάρα* πολύ;](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[Δεν μας παίρνει η επαγγελματική βοήθεια.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Nah, I guess you're right.
+h: Όχι, νομίζω έχεις δίκιο.
 
-h: We can't fix it all.
+h: Δεν μπορούμε να τα φτιάξουμε όλα.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: Ααα το ήξερα, θα είμαστε πάντα χαλασμένοι!
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: Αλλά μπορούμε τουλάχιστον να είμαστε *λιγότερο* χαλασμένοι.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: Τα σημάδια επουλώνουν με τον καιρό, αλλά δεν εξαφανίζονται ποτέ. Και αυτό είναι εντάξει.
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: Νομίζω. Εξάλλου,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1241,7 +1241,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: Τα σημάδια είναι *sexy.*
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: Μην το κάνεις αυτό.
 
 (#act4_something_else)
 
@@ -1259,35 +1259,35 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Νιώθω άσχημα που το παραδέχομαι, αλλά... κάποιο μέρος μου *θέλει* να έχει αυτή τη διαταραχή.
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: Εννοώ, χωρίς αυτή, δεν θα είμαστε *βαρετοί*;
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: Χωρίς τη διαταραχή, δεν θα σταματήσει η τέχνη μας να γίνεται ξινή και άχαμνη;
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Χωρίς τη διαταραχή, δεν θα μπορούμε να συνδεθούμε με τους φίλους μας που έχουν τη διαταραχή;
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Αν είμαστε ποτέ ικανοποιημένοι με τη ζωή, δεν θα σταματήσουμε να ωθούμε τον εαυτό μας να κάνει σπουδαία πράγματα;
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Αν φοβόμαστε ακόμα κι... «να μας τελειώσουν οι φόβοι»...
 
-h: I don't think we're gonna run out of fears.
+h: Δεν νομίζω ότι θα μας τελειώσουν οι φόβοι.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: Ω, ναι! Φιού! Τι ανακούφιση!
 
 (#act4_something_else)
 
@@ -1295,53 +1295,53 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: «Γιατρέ, αγχώνομαι που πληρώνω 100$/ώρα απλώς για να μου ρωτάς *πώς σου κάνει αυτό;*»
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: «Μμ-χμ. Και πώς σου κάνει αυτό;»
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Όχι, αυτό είναι εντελώς λογικό άγχος.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: Και πραγματικά γαμάει που η ψυχική υγεία δεν είναι προσιτή για πολλούς.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Παρ' όλα αυτά, υπάρχουν φτηνές ή δωρεάν επιλογές:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: Ομάδες υποστήριξης, online θεραπεία, φοιτητικά/μη κερδοσκοπικά κέντρα υγείας...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Συνήθειες όπως διαλογισμός, καλός ύπνος, τακτική κουβέντα με φίλους, μάθηση νέων πραγμάτων...
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Πήγαινε στη βιβλιοθήκη να δανειστείς βιβλία εργασίας για evidence-based ψυχοθεραπείες...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: Υπάρχει πλήρης λίστα πόρων στο τέλος αυτού του παιχνιδιού!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: Λοιπόν, *αυτός* ο τέταρτος τοίχος δεν κράτησε πολύ.
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Κάποια πράγματα είναι πιο σημαντικά από τις αφηγηματικές συμβάσεις. Όπως η ψυχική υγεία.
 
 (#act4_something_else)
 
@@ -1353,48 +1353,48 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Εννοώ, αυτό λένε οι θεραπευτές, έτσι; Να αποδέχεσαι όλα τα συναισθήματά σου, ακόμα κι τα αρνητικά;
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: Περίμενε.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+[«Αποδέχομαι» εννοώντας *παρατάω*;](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+[«Αποδέχομαι» εννοώντας *εγκρίνω*;](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+[«Αποδέχομαι» εννοώντας *παίρνω κυριολεκτικά*;](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Νομίζεις ο Martin Luther King θα έλεγε, «Ωχ δεν μπορούμε να καθίσουμε μπροστά στο λεωφορείο, ας το *αποδεχτούμε*;»
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: Γιατί ο Βιομηχανικός Συμπλέγματος Αυτοβοήθειας νομίζει ότι το να σηκώνεις λευκή σημαία είναι κάποια *βαθιά σοφία;*
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Νομίζω οι θεραπευτές εννοούν «αποδέχομαι» τα κακά πράγματα ως: να αναγνωρίζεις ότι υπάρχουν και είναι δύσκολο να αλλάξουν,
 
-h: But not necessarily giving up a commitment to change.
+h: Αλλά όχι απαραίτητα να παρατάς τη δέσμευση για αλλαγή.
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Τότε οι θεραπευτές θα έπρεπε να λένε *αναγνωρίζω*, όχι *αποδέχομαι*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Ναι, τώρα που το σκέφτομαι, το «αποδέχομαι» είναι μπερδεμένο.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Λοιπόν, το *αναγνωρίζω*.
 
 (#act4_something_else)
 
@@ -1402,52 +1402,52 @@ b: Well, I *acknowledge* that.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: Σαν να είναι *καλό* που είμαστε χαλασμένοι ή κάτι; Όχι!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Όλοι αυτοί οι καταραμένοι σεναριογράφοι του Χόλιγουντ που ρομαντικοποιούν την ψυχική αρρώστια είναι γεμάτοι σκατά!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Το να έχεις ψυχική διαταραχή *γαμάει!* Κλέβει *ζωές* από ανθρώπους! Γιατί να το «αποδεχόμαστε»;
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Νομίζω οι θεραπευτές εννοούν «αποδέχομαι» τα συναισθήματά μας ως: να είσαι υπομονετικός μαζί τους.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: Όπως όταν η πάλη στην αμμόλυση σε βυθίζει πιο γρήγορα, και η λύση είναι να ξαπλώσεις ήρεμα,
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, led me to jump off a roof.
+h: Το να πολεμάω εσένα, τον φόβο μου, με έκανε να πηδήξω από μια σκεπή.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost led me to jump off a roof.
+h: Το να πολεμάω εσένα, τον φόβο μου, σχεδόν με έκανε να πηδήξω από μια σκεπή.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: Αντίθετα, η λύση είναι να κάνουμε αυτό που κάνουμε τώρα – όχι να πολεμάμε, αλλά να είμαστε υπομονετικά μαζί.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Τότε θα έπρεπε να λένε *αυτό* αντί για κάποια προβληματική λέξη όπως «αποδέχομαι».
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Ναι, τώρα που το σκέφτομαι, το «αποδέχομαι» γαμάει λίγο.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Δεν αποδέχομαι το «αποδέχομαι».
 
 (#act4_something_else)
 
@@ -1455,30 +1455,30 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Αλλά *ξέρουμε* ήδη ότι δεν πρέπει να με παίρνεις κυριολεκτικά!
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: Το *πρόβλημα* είναι ότι θέλω να σε βοηθήσω, αλλά αποτυγχάνω να το κάνω με λόγια!
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Νομίζω οι θεραπευτές εννοούν «αποδέχομαι» τα συναισθήματά σου ως: «μην τα πολεμάς ή τα αγνοείς.»
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Να σε ακούς, να δουλεύεις *μαζί* σου, αλλά να μην παίρνεις ό,τι λες ως 100% κυριολεκτική αλήθεια.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Τότε οι θεραπευτές θα έπρεπε να λένε *αυτό* αντί για κάποια αόριστη μπερδεμένη λέξη όπως «αποδέχομαι».
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Νομίζω κι εκείνοι αποτυγχάνουν με τα λόγια.
 
 (#act4_something_else)
 
@@ -1493,11 +1493,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Λοιπόν, κάτι άλλο θέλεις να πούμε;
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: Λοιπόν, κάτι άλλο στο βαρύ σου καρδιά;
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1505,34 +1505,34 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Φοβάμαι ότι θα βλαφτούμε.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Φοβάμαι ότι θα μείνουμε μόνοι.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Φοβάμαι ότι είμαστε κακοί άνθρωποι.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Όχι, είμαι εντάξει προς το παρόν.](#act4c_prelude)
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Εντάξει, νομίζω μιλήσαμε για όλους τους φόβους μας τώρα.
 
-b: Yes, there are only three fears.
+b: Ναι, υπάρχουν μόνο τρεις φόβοι.
 
-h: Yup, exactly three.
+h: Ναι, ακριβώς τρεις.
 
-b: Convenient.
+b: Βολικό.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Καλή κουβέντα, ομάδα.
 
 (#act4c)
 
@@ -1553,28 +1553,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Αυτό δεν είναι κάποιο *παιχνίδι*, ξέρεις.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Το να χτίσεις υγιή σχέση με τα συναισθήματά σου δεν είναι τόσο απλό όσο να πατάς κουμπιά σε μια οθόνη.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: *Μπορούμε* πραγματικά να τα βρούμε;
 
-b: *Can* we work together, as a team?
+b: *Μπορούμε* να δουλέψουμε μαζί, σαν ομάδα;
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: Λοιπόν,
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: Σ-συγγνώμη...
 
 ```
 Game.clearText();
@@ -1592,50 +1592,50 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: Θ-θα σ' πείραζε αν κάθισα μαζί σου για μεσημεριανό;
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: *Αυτό* είναι το crush σου; Γιατί κάθονται μόνοι/η σαν ψυχοπαθής σειριακός δολοφόνος;
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Να ρωτήσεις το crush σου αν μπορείς να καθίσεις μαζί τους; Ξέρεις πόσο *επιεικείς* ακούγόμαστε;
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: *Αυτό* είναι το crush σου; Διακόψαμε την ησυχία τους! Είμαστε τέτοιο βάρος!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: Ε- εννοώ- εντάξει αν όχι, απλώς...
 
 `publish("act4", ["alshire", 3]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Wait, didn't I see you at the party?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Περίμενε, δεν σε είδα στο πάρτι;](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Ναι, φυσικά! Έλα εδώ.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Sorry, I need alone time right now.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Συγγνώμη, χρειάζομαι χρόνο μόνος/η τώρα.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Yeah you were on the couch! At the first party I went to...
+h2: Ναι, ήσουν στον καναπέ! Στο πρώτο πάρτι που πήγα...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Where I had that panic attack and punched the host.
+h2: Όπου είχα εκείνο το κρίση πανικού και χτύπησα τον οικοδεσπότη.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Where I had that panic attack and ran out crying.
+h2: Όπου είχα εκείνο το κρίση πανικού και έφυγα κλαίγοντας.
 {{/if}}
 
 ```
@@ -1643,18 +1643,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Περίμενε άνθρωπε, μπορεί να τους κάνουμε άβολα.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to put you on the spot!
+h2: Α, δεν θέλω να σε βάλω σε δύσκολη θέση!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Just remembering a friendly face, is all.
+h2: Απλώς θυμήθηκα ένα φιλικό πρόσωπο, τίποτα άλλο.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1662,15 +1662,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
+s: ΑΑΑΑΑ ΤΟ ΞΕΡΩ! ΕΙΝΑΙ ΕΠΙΚΙΝΔΥΝΟΣ ΨΥΧΟΠΑΘΗΣ ΠΑΝΙΚΟΥ!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH THE FIRST IMPRESSION WE MADE WAS "WITNESSED MY TRAUMA"! THAT MEANS THEY HATE US!
+s: ΑΑΑΧΗ Η ΠΡΩΤΗ ΕΝΤΥΠΩΣΗ ΠΟΥ ΚΑΝΑΜΕ ΗΤΑΝ «ΕΙΔΑΝ ΤΟ ΤΡΑΥΜΑ ΜΟΥ»! ΑΥΤΟ ΣΗΜΑΙΝΕΙ ΜΑΣ ΜΙΣΟΥΝ!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH WE MADE SOMEONE REMEMBER A TRAUMATIC EVENT. OUR MERE PRESENCE HURTS OTHERS.
+s: ΑΑΑΧΗ ΚΑΝΑΜΕ ΚΑΠΟΙΟΝ ΝΑ ΘΥΜΗΘΕΙ ΤΡΑΥΜΑΤΙΚΟ ΓΕΓΟΝΟΣ. Η ΑΠΛΗ ΜΑΣ ΠΑΡΟΥΣΙΑ ΠΛΗΓΩΝΕΙ ΑΛΛΟΥΣ.
 {{/if}}
 
 (#act4e)
@@ -1682,18 +1682,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, they seem uncomfortable.
+b: Περίμενε άνθρωπε, φαίνονται άβολα.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, no pressure of course!
+h2: Α, καμία πίεση φυσικά!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Just saying, you can sit here if you want to.
+h2: Απλώς λέω, μπορείς να καθίσεις εδώ αν θέλεις.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1701,15 +1701,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: THEY'RE BEING *TOO* FRIENDLY! LIKE TED BUNDY, THE SERIAL KILLER!
+s: ΕΙΝΑΙ *ΠΟΛΥ* ΦΙΛΙΚΟΙ! ΣΑΝ ΤΟΝ TED BUNDY, ΤΟΝ ΣΕΙΡΙΑΚΟ ΔΟΛΟΦΟΝΟ!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: THEY'RE JUST ACTING NICE! NO ONE *REALLY* WANTS TO BE CLOSE TO US!
+s: ΑΠΛΩΣ ΠΡΟΣΠΟΙΟΥΝΤΑΙ ΕΥΓΕΝΙΚΟΙ! ΚΑΝΕΙΣ *ΠΡΑΓΜΑΤΙΚΑ* ΔΕΝ ΘΕΛΕΙ ΝΑ ΕΙΝΑΙ ΚΟΝΤΑ ΜΑΣ!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH WE ALWAYS MAKE OTHERS FEEL AWKWARD! WE'RE A STAIN UPON THE EARTH!
+s: ΑΑΑΧΗ ΠΑΝΤΑ ΚΑΝΟΥΜΕ ΤΟΥΣ ΑΛΛΟΥΣ ΝΑ ΝΙΩΘΟΥΝ ΑΝΕΝΤΟΜΟΙ! ΕΙΜΑΣΤΕ ΚΗΛΙΔΑ ΣΤΗ ΓΗ!
 {{/if}}
 
 (#act4e)
@@ -1721,18 +1721,18 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Περίμενε άνθρωπε, μπορεί να τους κάνουμε άβολα.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to be rude!
+h2: Α, δεν θέλω να είμαι αγενής!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: I just need some time to process my emotions. Please don't take it as a personal rejection.
+h2: Απλώς χρειάζομαι λίγο χρόνο να επεξεργαστώ τα συναισθήματά μου. Μην το πάρεις προσωπικά.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1740,15 +1740,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: WHAT SICK, TWISTED THOUGHTS ARE THEY PROCESSING?! WHAT DARK DESIRES FILL THIS PSYCHO'S HEART?!
+s: ΤΙ ΑΡΡΩΣΤΕΣ, ΣΤΡΕΒΛΩΜΕΝΕΣ ΣΚΕΨΕΙΣ ΕΠΕΞΕΡΓΑΖΟΝΤΑΙ; ΤΙ ΣΚΟΤΕΙΝΕΣ ΕΠΙΘΥΜΙΕΣ ΓΕΜΙΖΟΥΝ ΤΗΝ ΚΑΡΔΙΑ ΑΥΤΟΥ ΤΟΥ ΨΥΧΟΠΑΘΗ;
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: WE'VE BEEN PERSONALLY REJECTED! WE'LL NEVER BE LOVED!
+s: ΜΑΣ ΑΠΟΡΡΙΨΑΝ ΠΡΟΣΩΠΙΚΑ! ΔΕΝ ΘΑ ΑΓΑΠΗΘΟΥΜΕ ΠΟΤΕ!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: WE INTERRUPTED THEIR EMOTIONAL PROCESSING! NOW THEY'LL BE TRAUMATIZED FOREVER AND IT'S ALL OUR FAULT!
+s: ΔΙΕΚΟΨΑΜΕ ΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ ΣΥΝΑΙΣΘΗΜΑΤΩΝ ΤΟΥΣ! ΤΩΡΑ ΘΑ ΤΡΑΥΜΑΤΙΣΤΟΥΝ ΓΙΑ ΠΑΝΤΑ ΚΑΙ ΕΙΝΑΙ ΟΛΑ ΔΙΚΗ ΜΑΣ ΕΥΘΥΝΗ!
 {{/if}}
 
 (#act4e)
@@ -1760,7 +1760,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN
+s: ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ ΤΡΕΧΕ
 
 ```
 Game.clearText();
@@ -1787,18 +1787,18 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. That was weird. I wonder what was going on in their head.
+h: Χμ. Ήταν περίεργο. Αναρωτιέμαι τι περνούσε από το κεφάλι τους.
 
 `publish("act4", ["hong_closer", 2]);`
 
-h: Anyway, you were saying?
+h: Λοιπόν, έλεγες;
 
 ```
 publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 6]);
 ```
 
-b: Uh, I forget? Something about teams and work?
+b: Ε, ξέχασα; Κάτι για ομάδες και δουλειά;
 
 ```
 publish("act4", ["bb_closer", 0]);
@@ -1812,55 +1812,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: They say you should "make peace" with your emotions, as if your emotions are *war criminals*.
+b: Λένε ότι πρέπει να «κάνεις ειρήνη» με τα συναισθήματά σου, σαν να είναι *εγκληματίες πολέμου*.
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Αλλά θέλω να κάνουμε *περισσότερα* από απλή ειρήνη! Θέλω να είμαστε *σύμμαχοι!*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Θέλω να είμαι καλός φρουρός-σκύλος. Όπως η πείνα και η δίψα είναι συναγερμοί για τις σωματικές σου ανάγκες,
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
+b: Θέλω να είμαι ο συναγερμός για τις *ψυχολογικές* σου ανάγκες – τις ανάγκες σου για ασφάλεια, ανήκειν, καλοσύνη.
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: But... I suck at my job, so I need you to train me.
+b: Αλλά... αποτυγχάνω στη δουλειά μου, οπότε χρειάζομαι εσένα να με εκπαιδεύσεις.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: I'm not "always valid," nor "always irrational." I'm just... trying my best. So, please,
+b: Δεν είμαι «πάντα έγκυρος/η», ούτε «πάντα παράλογος/η». Απλώς... προσπαθώ όσο μπορώ. Λοιπόν, παρακαλώ,
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Help me help you!
+b: Βοήθησέ με να σε βοηθήσω!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Though, teaching an old dog new tricks *will* take a while. Maybe *years.*
+b: Όμως, το να μάθεις σε γέρο σκύλο νέα κόλπα *θα* πάρει καιρό. Ίσως *χρόνια.*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: And sometimes I'll relapse, I'll slip into my old habits.
+b: Και μερικές φορές θα υποτροπιάσω, θα γλιστρήσω στις παλιές μου συνήθειες.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: I'll bark at shadows. I'll scare you with words. I might even show you some intrusive images of... things.
+b: Θα γαυγίζω σε σκιές. Θα σε τρομάζω με λόγια. Μπορεί ακόμα κι να σου δείξω ενοχλητικές εικόνες... πραγμάτων.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: I'm sorry! I'm a battered shelter dog! Battered dogs poop on your bed sometimes!
+b: Συγγνώμη! Είμαι κακοποιημένος σκύλος από καταφύγιο! Οι κακοποιημένοι σκύλοι κάνουν καμάκι στο κρεβάτι σου μερικές φορές!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: But if you're patient with me... and just stay and sit with me...
+b: Αλλά αν είσαι υπομονετικός/ή μαζί μου... και απλώς μείνεις και κάτσεις μαζί μου...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Maybe you can tame this wolf.
+b: Ίσως μπορέσεις να εξημερώσεις αυτόν τον λύκο.
 
 `publish("act4", ["bb_closer", 0]);`
 
@@ -1870,11 +1870,11 @@ b: Maybe you can tame this wolf.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Good dog.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Καλός σκύλος.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
-[Good human.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
+[Καλός άνθρωπος.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
 
 # act4f-pat-hong
 
@@ -1971,15 +1971,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
+b: ΑΑΑΑΑ ΑΚΟΜΑ ΤΡΩΣ ΜΟΝΟΣ/Η ΠΕΝΤΕΝΗΜΕΡΙΑ ΤΣΙΓΑΡΑ ΑΑΑΑΑ
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: ΑΑΑΑΑ ΑΚΟΜΑ ΔΕΝ ΕΙΣΑΙ ΠΑΡΑΓΩΓΙΚΟΣ/Η ΕΝΩ ΤΡΩΣ ΕΙΜΑΣΤΕ ΠΑΡΑΣΙΤΑ-ΚΟΙΝΩΝΙΑΣ ΑΑΑΑΑ
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: ΑΑΑΑΑ ΤΡΩΣ ΑΚΟΜΑ ΛΕΥΚΟ ΨΩΜΙ ΑΑΑΑΑ
 {{/if}}
 
 ```
@@ -1992,6 +1992,6 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: ΓΑΥ ΓΑΥ ΓΑΥ ΓΑΥ ΓΑΥ
 
 (#credits)

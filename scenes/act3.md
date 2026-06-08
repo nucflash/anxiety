@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Στην υγειά μας!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Αχ* αυτό χτυπάει ακριβώς εκεί που πρέπει.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Ξέρεις, μικρέ...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Συγκεκριμένα, χτυπάνε το δεξί και το αριστερό αμυγδαλοειδές μου.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Μου θυμίζεις τον εαυτό μου όταν ήμουν νεότερος. Τότε που με βασάνιζε το ζώο στο κεφάλι μου.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Είμαι τόσο χαρούμενος που μπορώ να το περάσω παρακάτω και να σε βοηθήσω να σκοτώσεις το θηρίο όπως σκότωσα το δικό μου.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Έι, μια γρήγορη ερώτηση: truth or da--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: ΠΡΟΚΛΗΣΗ!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Χαχα! Ωραία.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Οκ. Βλέπεις εκείνη την πισίνα baby-blue κάτω;
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Ναι; Έξι όροφους κάτω;
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Πήδα μέσα.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Περίμενε, τι;
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: Το ζώο άρχισε να μουρμουρίζει, έτσι δεν είναι;
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Ωχ όχιιιιι είναι επικίνδυνο, μην το κάνειιιις.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Αλλά γι' αυτό ακριβώς χρειαζόμαστε συγκινήσεις που ξεφεύγουν από τον θάνατο! Πάρτι σκληρά! Carpe diem! Σνιφάρε κόκα από τον ^ass^ μιας hooker, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Δείξε στο ζώο ότι δεν μας νοιάζουν δύο *^πουλιά^* για το ^καριόλα^-γκρίνια του! Πήδα μέσα.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: Ε, αλλά μερικές φορές, εμ... ο φόβος έχει νόημα...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Συγγνώμη, πέσατε στην προπαγάνδα McMindfulness που λέει ότι το να νιώθεις άσχημα είναι *καλό;*
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: Οι ^μαλάκες^ που κυβερνάνε αυτόν τον κόσμο δίνουν σε *εμάς* άγχος και κατάθλιψη,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: Και μετά κάνουν TED Talks για να μας πουν να "αποδεχτούμε" που μας ^γαμάνε^, και να "αγκαλιάσουμε" εκείνο το σαδιστικό δαίμονα στο κεφάλι μας!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Μικρέ, ξέρω ότι *εσύ* ξέρεις ότι το ζώο *βλάπτει* ανθρώπους σαν εμάς. *Βασανίζει* ανθρώπους σαν εμάς.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: Δεν είναι φίλος μας. Είναι λυσσασμένο θηρίο, που είτε πρέπει να *ηρεμήσει*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: Είτε να του *βάλουν σφαίρα στο κρανίο*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Αλλιώς θα το αφήσεις να κερδίσει.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Όχι. Έχεις λάθος.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Δεν πρόκειται να το αφήσω να κερδίσει.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: ^Γαμώ^ ναι! Πιστεύω σε σένα, μωρό μου! Σκότωσέ το! <3
 
 (#act3a)
 
@@ -240,38 +240,38 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: όχι όχι όχι όχι όχι όχι
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: ΑΥΤΟ ΤΟ ΚΕΦΑΛΑΙΟ ΕΧΕΙ ΔΥΟ ΠΙΘΑΝΑ ΤΕΛΗ. ΤΟ ΕΝΑ ΕΙΝΑΙ *ΠΟΛΥ, ΠΟΛΥ ΚΑΚΟ.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ ΟΧΙ
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: ΔΙΑΛΕΞΕ ΣΟΦΑ. ΠΡΟΣΤΑΤΕΨΕ ΤΟΝ ΑΝΘΡΩΠΟ ΣΟΥ
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
-b: AAAAAAAAAAAAAAAAAA
+b: ΑΑΑΑΑΑΑΑΑΑΑΑΑΑΑΑΑΑ
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: ΚΑΛΗ ΤΥΧΗ
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Άνθρωπος, εδώ μπορείς να ΠΕΘΑΝΕΙΣ στ' αλήθεια!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[Είναι χαζό και αυτοκαταστροφικό!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Αυτοί οι αρρωστημένοι δεν είναι πραγματικά φίλοι σου!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: Χ--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: Τ--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: Τ--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Ξέρεις, ίσως να σ' είχα πιστέψει... αν δεν το είχες δοκιμάσει εκατομμύρια φορές πριν.
 
-h: You're the wolf who cried wolf.
+h: Είσαι ο λύκος που φώναζε λύκο.
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: Κι αυτό το δοκίμασες.
 
-b: human, please...
+b: άνθρωπος, σε παρακαλώ...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: Ω, *συγγνώμη*, η Big Pharma δεν εγκρίνει την αυτοφαρμακεία μου.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Άκου ^μαλάκα^, *όλοι* έχουμε τρόπο να σ' κλείσουμε το στόμα ^γαμώ^.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: Κάποιοι ρίχνονται στη δουλειά.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: Κάποιοι ρίχνονται στο σεξ, τα ναρκωτικά και το refresh του Facebook feed.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: Κάποιοι ρίχνονται πάνω σε άλλους ανθρώπους.
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: Εγώ θα ριχτώ σε εκείνη την πισίνα.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[Είσαι μεθυσμένος και είναι ΕΞΙ ΟΡΟΦΟΥΣ ΚΑΤΩ](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Κατάρα, αυτά είναι τα ευχαριστήρια που παίρνω;](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Εντάξει, το παραδέχομαι. Τα έκανα θάλασσα.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: Ακόμα κι αν προσγειωθείς στο νερό, η επιφανειακή τάση θα σου σπάσει τις πλευρές και θα σου δώσει διάσειση *τουλάχιστον!*
 
-h: Eh.
+h: Ε.
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: Είδα κάποιον Ρώσο να το κάνει αυτό στο YouTube μια φορά.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: Ε- Συγγνώμη, τα *ευχαριστήρια;*
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: Γι' αυτό ακριβώς *υπάρχω!* Επειδή οι άνθρωποι δεν μπορούν να εμπιστευτούν τον εαυτό τους να προστατευτεί!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: Προσπαθώ να προστατεύσω το χαζοκώλο σου όλη μου τη ζωή και τώρα απλά θα--
 
 ```
 hong({body:"drink"});
@@ -442,41 +442,41 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: χε.
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: χαχαχα
 
 `hong({ body:"laugh_3" })``
 
-h: HAHAHAHAHAHA
+h: ΧΑΧΑΧΑΧΑΧΑΧΑ
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Ω WOW, αυτό είναι η μεγαλύτερη *^γαμημένη^* υποβάθμιση του αιώνα!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Ναι, σάπιο σωρό από ^σκατά^ βουλυμένο σε αίμα! Τα έκανες ^γαμώ^-θάλασσα!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: Άλλες παρατηρήσεις, Καπετάνιε Προφανές;
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Αλλά η εκδίκηση εναντίον μου δεν είναι η απάντηση!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Αλλά αυτή τη φορά έχω *πραγματικά* δίκιο!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Σε πλήγωσα.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Πρέπει να έχεις πιο υγιή σχέση με τα συναισθήματά σου, αντί να τα πνίγεις με--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: Οπότε σε παρακαλώ, βάλε το μπουκάλι κάτω και ας--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: σε παρακαλώ... μην...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: Η μπάρα ενέργειάς σου φαίνεται πολύ χαμηλή εκεί, λύκε.
 
-h: If I were you, I'd choose your next words very carefully.
+h: Αν ήμουν εσύ, θα διάλεγα τις επόμενες λέξεις μου πολύ προσεκτικά.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[Εντάξει. Τελείωσα να σε προστατεύω.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[Είχα δίκιο από την αρχή.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Λυπάμαι.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: Λοιπόν, πήδα. Να δω τι με νοιάζει.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: Εντάξει λοιπόν. Εις υγείαν.
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: ΠΕΡΙΜΕΝΕ ΟΧΙ ΑΥΤΟ ΗΤΑΝ ΑΝΤΙΣΤΡΟΦΗ ΨΥΧΟΛΟΓΙΑ ΕΠΡΕΠΕ ΝΑ ΚΑΝΕΙΣ ΤΟ *ΑΝΤΙΘΕΤΟ* ΑΠ' ΑΥΤΟ ΠΟΥ ΕΙΠ--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: Εσύ *βάζεις* τον εαυτό σου σε κίνδυνο. Οι λεγόμενοι φίλοι σου *σε χρησιμοποιούν*. Και *εσύ* χρησιμοποιείς τους λεγόμενους φίλους σου.
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Οπότε σε παρακαλώ, άνθρωπος... γιατί δεν με πιστεύεις;
 
-h: Because you never believed in *me*.
+h: Γιατί εσύ ποτέ δεν πίστεψες σε *μένα*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Άλλοι guard-wolves έχουν ανθρώπους που αφιερώνουν χρόνο να τους εκπαιδεύουν υπομονετικά, να *μάθουν* να δουλεύουν μαζί,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: Αντί να μισούν τους guard-wolves που προσπαθούν να τους προστατεύσουν! Γιατί εσύ δεν μπορείς απλά--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Λάθος ^γαμημένη^ απάντηση.
 
 (#act3_bad_3)
 
@@ -614,7 +614,7 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Το μόνο που έχουμε να φοβόμαστε είναι ο φόβος ο ίδιος."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
@@ -622,21 +622,21 @@ h: *"Don't worry, be happy!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: Όλοι οι σοφοί της εποχής μας συμφωνούν: τα αρνητικά συναισθήματα είναι *κακά!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Ντάα! Γι' αυτό λέγονται *αρνητικά!*
 
-b: human... please...
+b: άνθρωπος... σε παρακαλώ...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Πριν από λίγο καιρό, είπα: «Απλά θέλω να είμαι ελεύθερος από όλο αυτόν τον πόνο.»
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: Πήρα την ευχή μου. Δεν νιώθω πια πόνο, ή φόβο, ή άγχος...
 
-h: I don't feel anything at all.
+h: Δεν νιώθω τίποτα καθόλου.
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Ήμουν τόσο εμμονικός να βεβαιωθώ ότι τίποτα άλλο δεν θα σε πλήγωνε, που δεν κατάλαβα ότι *εγώ* δημιουργούσα τον πόνο.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: ΟΧΙ. Σ^ΚΑΤΑ^.
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^ΓΑΜΩΤΟ^. Πράγματι σου πήρε τόσο πολύ να το καταλάβεις τελικά;
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Θα μας είχες γλιτώσει τόσο μπέρδεμα, μεγάλο χνουδωτό χαζο^κώλο^. Γιατί δεν το κατάλαβες νωρίτερα;...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...*λυπάσαι*.
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: Λυπάσαι για *τι*;
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Λυπάμαι που δεν ήμουν καλός προστάτης.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Λυπάμαι που δεν σ' είχα σεβαστεί.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Λυπάμαι.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Λυπάμαι που έχω τρομερό άνθρωπο!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Λυπάμαι που δεν σ' είχα σεβαστεί.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Λυπάμαι που σε πλήγωσα.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Είναι καθήκον μου να σε προειδοποιώ για *πραγματικό* κίνδυνο, αλλά συνέχιζα να γαβγίζω σε αυτοκίνητα και τον ταχυδρόμο.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Γαβγίζοντας σε σκιές. Γαβγίζοντας τόσο πολύ.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Είναι λογικό να θες να μου βάλεις φίμωτρο.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Λυπάμαι.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: Έπρεπε να είμαι ο *πιστός* σου guard-dog, αλλά συμπεριφερόμουν σαν να έπρεπε εσύ να υπακούς *εμένα*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Υπάρχει διαφορά ανάμεσα σε προστάτη και φύλακα φυλακής, και την πέρασα.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Λυπάμαι.
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Ήμουν τόσο εμμονικός στο να σε προστατεύω από τον πόνο, που δεν σταμάτησα ποτέ να καταλάβω ότι *εγώ* σε πλήγωνα.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Ήμουν κακό σκυλί.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Λυπάμαι.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Ναι, ε, αυτή ήταν χαζή ιδέα ούτως ή άλλως.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Το έκανα μόνο για να σε χαλάσω, και, ε, σε χάλασα.
 
-h: Let's just call this round a tie, okay?
+h: Ας πούμε ότι αυτός ο γύρος είναι ισοπαλία, εντάξει;
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: Εντάξει.
 
-h: Okay.
+h: Εντάξει.
 
-n: *TIE*
+n: *ΙΣΟΠΑΛΙΑ*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: Ω *έλα τώρα*. Μετά από όλα όσα σου έκανε το ζώο, απλά *τα παρατάς;*
 
-r: What's the matter, kid? Are you *scared?*
+r: Τι έγινε, μικρέ; *Φοβάσαι;*
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Ναι.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Φοβάμαι.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: Και αυτό είναι εντάξει!
+
+`publish('hong-next')`
+
+h2: Είναι εντάξει να φοβάσαι.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: Μόλις κλείδωσαν την πόρτα;
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: όχι...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: όχι όχι όχι
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: ΟΧΙ!
 
 (...400)
 
